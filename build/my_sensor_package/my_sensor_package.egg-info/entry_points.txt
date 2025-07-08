@@ -1,0 +1,4 @@
+[console_scripts]
+sensor_publisher_node = my_sensor_package.sensor_publisher:main
+sensor_subscriber_node = my_sensor_package.sensor_subscriber:main
+

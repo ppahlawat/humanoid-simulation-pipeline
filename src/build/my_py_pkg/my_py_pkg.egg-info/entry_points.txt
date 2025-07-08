@@ -1,0 +1,6 @@
+[console_scripts]
+draw_circle = my_py_pkg.draw_circle:main
+pose_subscriber = my_py_pkg.pose_subscriber:main
+test_node = my_py_pkg.my_first_node:main
+turtle_controller = my_py_pkg.turtle_controller:main
+

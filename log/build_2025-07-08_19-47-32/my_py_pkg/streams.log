@@ -1,0 +1,22 @@
+[0.811s] Invoking command in '/root/ros2_ws/build/my_py_pkg': PYTHONPATH=/root/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/my_py_pkg/build --no-deps symlink_data --force
+[0.997s] running develop
+[1.107s] running egg_info
+[1.107s] writing my_py_pkg.egg-info/PKG-INFO
+[1.108s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[1.108s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[1.108s] writing requirements to my_py_pkg.egg-info/requires.txt
+[1.108s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[1.109s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.109s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.110s] running build_ext
+[1.111s] Creating /root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[1.111s] Installing draw_circle script to /root/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.112s] Installing pose_subscriber script to /root/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.112s] Installing test_node script to /root/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.113s] Installing turtle_controller script to /root/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.113s] 
+[1.113s] Installed /root/ros2_ws/build/my_py_pkg
+[1.113s] running symlink_data
+[1.113s] symbolically linking /root/ros2_ws/build/my_py_pkg/resource/my_py_pkg -> /root/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[1.114s] symbolically linking /root/ros2_ws/build/my_py_pkg/package.xml -> /root/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[1.142s] Invoked command in '/root/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/root/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/my_py_pkg/build --no-deps symlink_data --force

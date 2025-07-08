@@ -1,0 +1,20 @@
+[0.627s] Invoking command in '/root/ros2_ws/src/build/my_py_pkg': PYTHONPATH=/root/ros2_ws/src/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros2_ws/src/build/my_py_pkg/build --no-deps symlink_data
+[0.820s] running develop
+[0.932s] running egg_info
+[0.932s] writing my_py_pkg.egg-info/PKG-INFO
+[0.932s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[0.932s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[0.932s] writing requirements to my_py_pkg.egg-info/requires.txt
+[0.932s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[0.934s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.935s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.936s] running build_ext
+[0.936s] Creating /root/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[0.937s] Installing draw_circle script to /root/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[0.937s] Installing pose_subscriber script to /root/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[0.937s] Installing test_node script to /root/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[0.937s] Installing turtle_controller script to /root/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[0.937s] 
+[0.937s] Installed /root/ros2_ws/src/build/my_py_pkg
+[0.938s] running symlink_data
+[0.973s] Invoked command in '/root/ros2_ws/src/build/my_py_pkg' returned '0': PYTHONPATH=/root/ros2_ws/src/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros2_ws/src/build/my_py_pkg/build --no-deps symlink_data

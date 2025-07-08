@@ -1,0 +1,19 @@
+[0.647s] Invoking command in '/root/ros2_ws/src/build/my_py_pkg': PYTHONPATH=/root/ros2_ws/src/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros2_ws/src/build/my_py_pkg/build --no-deps symlink_data
+[0.841s] running develop
+[0.957s] running egg_info
+[0.957s] writing my_py_pkg.egg-info/PKG-INFO
+[0.957s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[0.957s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[0.958s] writing requirements to my_py_pkg.egg-info/requires.txt
+[0.958s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[0.959s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.960s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.961s] running build_ext
+[0.961s] Creating /root/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[0.962s] Installing draw_circle script to /root/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[0.962s] Installing pose_subscriber = my_py_pkg.pose_subscriber:mainturtle_controller script to /root/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[0.962s] Installing test_node script to /root/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[0.963s] 
+[0.963s] Installed /root/ros2_ws/src/build/my_py_pkg
+[0.963s] running symlink_data
+[0.992s] Invoked command in '/root/ros2_ws/src/build/my_py_pkg' returned '0': PYTHONPATH=/root/ros2_ws/src/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros2_ws/src/build/my_py_pkg/build --no-deps symlink_data

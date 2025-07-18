@@ -1,0 +1,1 @@
+/root/ros2_ws/build/humanoid_description/ament_cmake_core/humanoid_descriptionConfig-version.cmake

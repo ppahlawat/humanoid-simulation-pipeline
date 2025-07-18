@@ -9,7 +9,7 @@ class DistancePublisher(Node):
         super().__init__('distance_publisher')
         self.publisher_ = self.create_publisher(Float32, 'distance_sensor', 10)
 
-        self.timer_period = 3000
+        self.timer_period = 3.0
         self.timer = self.create_timer(self.timer_period, self.publish_distance)
 
         self.count = 0

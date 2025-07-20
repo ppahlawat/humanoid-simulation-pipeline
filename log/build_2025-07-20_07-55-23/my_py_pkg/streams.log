@@ -1,0 +1,40 @@
+[0.882s] Invoking command in '/root/ros2_ws/build/my_py_pkg': PYTHONPATH=/root/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /root/ros2_ws/build/my_py_pkg/build
+[1.079s] running develop
+[1.191s] Removing /root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[1.228s] Invoked command in '/root/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/root/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /root/ros2_ws/build/my_py_pkg/build
+[1.230s] Invoking command in '/root/ros2_ws/src/my_py_pkg': PYTHONPATH=/root/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /root/ros2_ws/build/my_py_pkg/build install --record /root/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data --force
+[1.417s] running egg_info
+[1.417s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[1.418s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[1.418s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[1.418s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[1.418s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[1.420s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.421s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.421s] running build
+[1.421s] running build_py
+[1.421s] running install
+[1.422s] running install_lib
+[1.422s] creating /root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.423s] copying /root/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.423s] copying /root/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/turtle_controller.py -> /root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.424s] copying /root/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/pose_subscriber.py -> /root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.424s] copying /root/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/draw_circle.py -> /root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.425s] copying /root/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.426s] byte-compiling /root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc
+[1.426s] byte-compiling /root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/turtle_controller.py to turtle_controller.cpython-310.pyc
+[1.427s] byte-compiling /root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/pose_subscriber.py to pose_subscriber.cpython-310.pyc
+[1.427s] byte-compiling /root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/draw_circle.py to draw_circle.cpython-310.pyc
+[1.428s] byte-compiling /root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-310.pyc
+[1.428s] running install_data
+[1.428s] copying resource/my_py_pkg -> /root/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[1.428s] copying package.xml -> /root/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[1.429s] running install_egg_info
+[1.430s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[1.432s] running install_scripts
+[1.449s] Installing draw_circle script to /root/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.450s] Installing pose_subscriber script to /root/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.450s] Installing test_node script to /root/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.450s] Installing turtle_controller script to /root/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.450s] writing list of installed files to '/root/ros2_ws/build/my_py_pkg/install.log'
+[1.476s] Invoked command in '/root/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/root/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /root/ros2_ws/build/my_py_pkg/build install --record /root/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data --force

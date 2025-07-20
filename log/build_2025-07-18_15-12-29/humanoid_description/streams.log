@@ -1,0 +1,101 @@
+[0.214s] Invoking command in '/root/ros2_ws/build/humanoid_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/my_sensor_package:/root/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/humanoid_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/humanoid_description
+[0.256s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.380s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.402s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[1.429s] -- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)
+[1.430s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[1.459s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.462s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.471s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.483s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.496s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.539s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.542s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.567s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.579s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.644s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.652s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.711s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.801s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.844s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.846s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.852s] -- Searching for dependencies of ignition-math6
+[1.854s] -- Looking for OGRE...
+[1.860s] -- Found Ogre Ghadamon (1.9.0)
+[1.861s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.868s] -- Looking for OGRE_Paging...
+[1.869s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.869s] -- Looking for OGRE_Terrain...
+[1.869s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.869s] -- Looking for OGRE_Property...
+[1.869s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.869s] -- Looking for OGRE_RTShaderSystem...
+[1.869s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.869s] -- Looking for OGRE_Volume...
+[1.869s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.869s] -- Looking for OGRE_Overlay...
+[1.869s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[14.752s] -- Looking for ignition-math6 -- found version 6.15.1
+[14.753s] -- Looking for ignition-transport8 -- found version 8.2.1
+[14.753s] -- Searching for dependencies of ignition-transport8
+[15.603s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[16.438s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[16.443s] -- Checking for module 'libzmq >= 4'
+[16.461s] --   Found libzmq , version 4.3.4
+[16.509s] -- Checking for module 'uuid'
+[16.524s] --   Found uuid, version 2.37.2
+[16.564s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[16.564s] -- Searching for dependencies of ignition-msgs5
+[17.422s] -- Looking for ignition-math6 -- found version 6.15.1
+[17.430s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[17.431s] -- Looking for ignition-common3 -- found version 3.14.0
+[17.431s] -- Searching for dependencies of ignition-common3
+[17.431s] -- Looking for dlfcn.h - found
+[17.431s] -- Looking for libdl - found
+[17.490s] -- Searching for <ignition-common3> component [graphics]
+[17.491s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[17.491s] -- Searching for dependencies of ignition-common3-graphics
+[17.491s] -- Looking for ignition-math6 -- found version 6.15.1
+[17.493s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[17.493s] -- Searching for dependencies of ignition-fuel_tools4
+[18.487s] -- Checking for module 'jsoncpp'
+[18.503s] --   Found jsoncpp, version 1.9.5
+[18.549s] -- Checking for module 'libzip'
+[18.565s] --   Found libzip, version 1.7.3
+[18.606s] -- Looking for ignition-common3 -- found version 3.14.0
+[18.606s] -- Looking for ignition-math6 -- found version 6.15.1
+[18.606s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[18.609s] -- Gazebo version: 11.10
+[18.610s] -- Found gazebo_msgs: 3.9.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+[18.659s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[18.729s] -- Added test 'flake8' to check Python code syntax and style conventions
+[18.730s] -- Added test 'lint_cmake' to check CMake code style
+[18.730s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[18.731s] -- Added test 'xmllint' to check XML markup files
+[18.734s] -- Configuring done
+[18.745s] -- Generating done
+[18.749s] -- Build files have been written to: /root/ros2_ws/build/humanoid_description
+[18.762s] Invoked command in '/root/ros2_ws/build/humanoid_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/my_sensor_package:/root/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/humanoid_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/humanoid_description
+[18.764s] Invoking command in '/root/ros2_ws/build/humanoid_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/my_sensor_package:/root/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/humanoid_description -- -j16 -l16
+[18.811s] Invoked command in '/root/ros2_ws/build/humanoid_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/my_sensor_package:/root/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/humanoid_description -- -j16 -l16
+[18.813s] Invoking command in '/root/ros2_ws/build/humanoid_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/my_sensor_package:/root/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/humanoid_description
+[18.821s] -- Install configuration: ""
+[18.821s] -- Execute custom install script
+[18.822s] -- Up-to-date symlink: /root/ros2_ws/install/humanoid_description/share/humanoid_description/urdf/humanoid.urdf.xacro
+[18.822s] -- Symlinking: /root/ros2_ws/install/humanoid_description/share/humanoid_description/launch/spawn_humanoid.launch.py
+[18.832s] -- Up-to-date symlink: /root/ros2_ws/install/humanoid_description/share/ament_index/resource_index/package_run_dependencies/humanoid_description
+[18.833s] -- Up-to-date symlink: /root/ros2_ws/install/humanoid_description/share/ament_index/resource_index/parent_prefix_path/humanoid_description
+[18.834s] -- Up-to-date symlink: /root/ros2_ws/install/humanoid_description/share/humanoid_description/environment/ament_prefix_path.sh
+[18.834s] -- Up-to-date symlink: /root/ros2_ws/install/humanoid_description/share/humanoid_description/environment/ament_prefix_path.dsv
+[18.834s] -- Up-to-date symlink: /root/ros2_ws/install/humanoid_description/share/humanoid_description/environment/path.sh
+[18.835s] -- Up-to-date symlink: /root/ros2_ws/install/humanoid_description/share/humanoid_description/environment/path.dsv
+[18.835s] -- Up-to-date symlink: /root/ros2_ws/install/humanoid_description/share/humanoid_description/local_setup.bash
+[18.835s] -- Up-to-date symlink: /root/ros2_ws/install/humanoid_description/share/humanoid_description/local_setup.sh
+[18.836s] -- Up-to-date symlink: /root/ros2_ws/install/humanoid_description/share/humanoid_description/local_setup.zsh
+[18.836s] -- Up-to-date symlink: /root/ros2_ws/install/humanoid_description/share/humanoid_description/local_setup.dsv
+[18.837s] -- Symlinking: /root/ros2_ws/install/humanoid_description/share/humanoid_description/package.dsv
+[18.847s] -- Up-to-date symlink: /root/ros2_ws/install/humanoid_description/share/ament_index/resource_index/packages/humanoid_description
+[18.848s] -- Up-to-date symlink: /root/ros2_ws/install/humanoid_description/share/humanoid_description/cmake/humanoid_descriptionConfig.cmake
+[18.848s] -- Up-to-date symlink: /root/ros2_ws/install/humanoid_description/share/humanoid_description/cmake/humanoid_descriptionConfig-version.cmake
+[18.848s] -- Up-to-date symlink: /root/ros2_ws/install/humanoid_description/share/humanoid_description/package.xml
+[18.852s] Invoked command in '/root/ros2_ws/build/humanoid_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/my_sensor_package:/root/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/humanoid_description

@@ -1,0 +1,1 @@
+/root/ros2_ws/src/humanoid_description/launch/view_humanoid.launch.py

@@ -1,0 +1,42 @@
+[0.210s] Invoking command in '/root/ros2_ws/build/humanoid_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/my_sensor_package:/root/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/humanoid_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/humanoid_description
+[0.219s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.322s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.328s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.448s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.450s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.454s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.462s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.471s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.495s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.496s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.363s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.398s] -- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)
+[4.401s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.479s] -- Added test 'lint_cmake' to check CMake code style
+[4.481s] -- Added test 'xmllint' to check XML markup files
+[4.483s] -- Configuring done
+[4.493s] -- Generating done
+[4.495s] -- Build files have been written to: /root/ros2_ws/build/humanoid_description
+[4.504s] Invoked command in '/root/ros2_ws/build/humanoid_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/my_sensor_package:/root/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/humanoid_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/humanoid_description
+[4.505s] Invoking command in '/root/ros2_ws/build/humanoid_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/my_sensor_package:/root/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/humanoid_description -- -j16 -l16
+[4.551s] Invoked command in '/root/ros2_ws/build/humanoid_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/my_sensor_package:/root/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/humanoid_description -- -j16 -l16
+[4.553s] Invoking command in '/root/ros2_ws/build/humanoid_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/my_sensor_package:/root/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/humanoid_description
+[4.560s] -- Install configuration: ""
+[4.561s] -- Execute custom install script
+[4.561s] -- Symlinking: /root/ros2_ws/install/humanoid_description/share/humanoid_description/urdf/humanoid.urdf.xacro
+[4.573s] -- Symlinking: /root/ros2_ws/install/humanoid_description/share/ament_index/resource_index/package_run_dependencies/humanoid_description
+[4.584s] -- Symlinking: /root/ros2_ws/install/humanoid_description/share/ament_index/resource_index/parent_prefix_path/humanoid_description
+[4.596s] -- Symlinking: /root/ros2_ws/install/humanoid_description/share/humanoid_description/environment/ament_prefix_path.sh
+[4.606s] -- Symlinking: /root/ros2_ws/install/humanoid_description/share/humanoid_description/environment/ament_prefix_path.dsv
+[4.616s] -- Symlinking: /root/ros2_ws/install/humanoid_description/share/humanoid_description/environment/path.sh
+[4.627s] -- Symlinking: /root/ros2_ws/install/humanoid_description/share/humanoid_description/environment/path.dsv
+[4.637s] -- Symlinking: /root/ros2_ws/install/humanoid_description/share/humanoid_description/local_setup.bash
+[4.647s] -- Symlinking: /root/ros2_ws/install/humanoid_description/share/humanoid_description/local_setup.sh
+[4.658s] -- Symlinking: /root/ros2_ws/install/humanoid_description/share/humanoid_description/local_setup.zsh
+[4.669s] -- Symlinking: /root/ros2_ws/install/humanoid_description/share/humanoid_description/local_setup.dsv
+[4.680s] -- Symlinking: /root/ros2_ws/install/humanoid_description/share/humanoid_description/package.dsv
+[4.692s] -- Symlinking: /root/ros2_ws/install/humanoid_description/share/ament_index/resource_index/packages/humanoid_description
+[4.703s] -- Symlinking: /root/ros2_ws/install/humanoid_description/share/humanoid_description/cmake/humanoid_descriptionConfig.cmake
+[4.714s] -- Symlinking: /root/ros2_ws/install/humanoid_description/share/humanoid_description/cmake/humanoid_descriptionConfig-version.cmake
+[4.724s] -- Symlinking: /root/ros2_ws/install/humanoid_description/share/humanoid_description/package.xml
+[4.737s] Invoked command in '/root/ros2_ws/build/humanoid_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/my_sensor_package:/root/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/humanoid_description

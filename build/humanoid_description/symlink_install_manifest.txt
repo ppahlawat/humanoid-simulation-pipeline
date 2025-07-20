@@ -1,3 +1,5 @@
+/root/ros2_ws/install/humanoid_description/share/humanoid_description/launch/spawn_humanoid.launch.py
+/root/ros2_ws/install/humanoid_description/share/humanoid_description/launch/view_humanoid.launch.py
 /root/ros2_ws/install/humanoid_description/share/humanoid_description/urdf/humanoid.urdf.xacro
 /root/ros2_ws/install/humanoid_description/share/ament_index/resource_index/package_run_dependencies/humanoid_description
 /root/ros2_ws/install/humanoid_description/share/ament_index/resource_index/parent_prefix_path/humanoid_description

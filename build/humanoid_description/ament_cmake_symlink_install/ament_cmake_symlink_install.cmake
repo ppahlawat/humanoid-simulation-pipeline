@@ -310,6 +310,9 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
+# install(DIRECTORY "launch" "DESTINATION" "share/humanoid_description")
+ament_cmake_symlink_install_directory("/root/ros2_ws/src/humanoid_description" DIRECTORY "launch" "DESTINATION" "share/humanoid_description")
+
 # install(DIRECTORY "urdf" "DESTINATION" "share/humanoid_description")
 ament_cmake_symlink_install_directory("/root/ros2_ws/src/humanoid_description" DIRECTORY "urdf" "DESTINATION" "share/humanoid_description")
 

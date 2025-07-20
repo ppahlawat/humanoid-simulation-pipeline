@@ -1,0 +1,432 @@
+[0.000000] (-) TimerEvent: {}
+[0.000348] (humanoid_description) JobQueued: {'identifier': 'humanoid_description', 'dependencies': OrderedDict()}
+[0.000372] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict()}
+[0.000401] (my_sensor_package) JobQueued: {'identifier': 'my_sensor_package', 'dependencies': OrderedDict()}
+[0.000428] (my_robot_bringup) JobQueued: {'identifier': 'my_robot_bringup', 'dependencies': OrderedDict([('my_sensor_package', '/root/ros2_ws/install/my_sensor_package')])}
+[0.000860] (my_sensor_package) JobStarted: {'identifier': 'my_sensor_package'}
+[0.008890] (humanoid_description) JobStarted: {'identifier': 'humanoid_description'}
+[0.012536] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.100572] (-) TimerEvent: {}
+[0.202043] (-) TimerEvent: {}
+[0.220316] (humanoid_description) JobProgress: {'identifier': 'humanoid_description', 'progress': 'cmake'}
+[0.221462] (humanoid_description) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/humanoid_description', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/humanoid_description'], 'cwd': '/root/ros2_ws/build/humanoid_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'Priyanshu'), ('WSL_INTEROP', '/run/WSL/46457_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/e/Python program/Scripts:/mnt/e/Python program:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/e/Coding/New folder/mingw64/bin:/mnt/c/Users/ASUS/AppData/Roaming/npm:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/e/Git/cmd:/mnt/e/Python program/Scripts/:/mnt/e/Python program/:/mnt/c/Users/ASUS/AppData/Local/Programs/Python/Launcher/:/mnt/e/Python program/Scripts:/mnt/c/Users/ASUS/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ASUS/.dotnet/tools:/mnt/e/SIGMA WEB DEV/VS code/Microsoft VS Code/bin:/mnt/e/VIRTUAL BOX/folder for the MacOS 7.0:/mnt/c/Users/ASUS/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', 'caac01c1-4b9d-4464-a124-c85cfe9d063e'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/my_sensor_package:/root/ros2_ws/install/my_py_pkg:/root/ros2_ws/install/humanoid_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/ros2_ws/build/humanoid_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/ros2_ws/build/my_sensor_package:/root/ros2_ws/install/my_sensor_package/lib/python3.10/site-packages:/root/ros2_ws/build/my_py_pkg:/root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/humanoid_description:/root/ros2_ws/install/my_sensor_package:/root/ros2_ws/install/my_py_pkg:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.244122] (humanoid_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.302780] (-) TimerEvent: {}
+[0.374381] (humanoid_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.394225] (humanoid_description) StdoutLine: {'line': b'-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)\n'}
+[0.403042] (-) TimerEvent: {}
+[0.504347] (-) TimerEvent: {}
+[0.605716] (-) TimerEvent: {}
+[0.706580] (-) TimerEvent: {}
+[0.742580] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/root/ros2_ws/build/my_py_pkg/build'], 'cwd': '/root/ros2_ws/build/my_py_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'root', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/root', 'OLDPWD': '/root', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/root/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', 'NAME': 'Priyanshu', 'WSL_INTEROP': '/run/WSL/46457_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/e/Python program/Scripts:/mnt/e/Python program:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/e/Coding/New folder/mingw64/bin:/mnt/c/Users/ASUS/AppData/Roaming/npm:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/e/Git/cmd:/mnt/e/Python program/Scripts/:/mnt/e/Python program/:/mnt/c/Users/ASUS/AppData/Local/Programs/Python/Launcher/:/mnt/e/Python program/Scripts:/mnt/c/Users/ASUS/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ASUS/.dotnet/tools:/mnt/e/SIGMA WEB DEV/VS code/Microsoft VS Code/bin:/mnt/e/VIRTUAL BOX/folder for the MacOS 7.0:/mnt/c/Users/ASUS/AppData/Roaming/npm:/snap/bin', 'WT_SESSION': 'caac01c1-4b9d-4464-a124-c85cfe9d063e', 'XDG_RUNTIME_DIR': '/run/user/0/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/my_sensor_package:/root/ros2_ws/install/my_py_pkg:/root/ros2_ws/install/humanoid_description:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/root/ros2_ws/build/my_py_pkg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/root/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/root/ros2_ws/build/my_sensor_package:/root/ros2_ws/install/my_sensor_package/lib/python3.10/site-packages:/root/ros2_ws/build/my_py_pkg:/root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/humanoid_description', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[0.746291] (my_sensor_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/root/ros2_ws/build/my_sensor_package/build'], 'cwd': '/root/ros2_ws/build/my_sensor_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'root', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/root', 'OLDPWD': '/root', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/root/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', 'NAME': 'Priyanshu', 'WSL_INTEROP': '/run/WSL/46457_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/e/Python program/Scripts:/mnt/e/Python program:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/e/Coding/New folder/mingw64/bin:/mnt/c/Users/ASUS/AppData/Roaming/npm:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/e/Git/cmd:/mnt/e/Python program/Scripts/:/mnt/e/Python program/:/mnt/c/Users/ASUS/AppData/Local/Programs/Python/Launcher/:/mnt/e/Python program/Scripts:/mnt/c/Users/ASUS/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ASUS/.dotnet/tools:/mnt/e/SIGMA WEB DEV/VS code/Microsoft VS Code/bin:/mnt/e/VIRTUAL BOX/folder for the MacOS 7.0:/mnt/c/Users/ASUS/AppData/Roaming/npm:/snap/bin', 'WT_SESSION': 'caac01c1-4b9d-4464-a124-c85cfe9d063e', 'XDG_RUNTIME_DIR': '/run/user/0/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/my_sensor_package:/root/ros2_ws/install/my_py_pkg:/root/ros2_ws/install/humanoid_description:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/root/ros2_ws/build/my_sensor_package', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/root/ros2_ws/build/my_sensor_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/my_sensor_package/lib/python3.10/site-packages:/root/ros2_ws/build/my_sensor_package:/root/ros2_ws/install/my_sensor_package/lib/python3.10/site-packages:/root/ros2_ws/build/my_py_pkg:/root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/humanoid_description', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[0.806999] (-) TimerEvent: {}
+[0.908164] (-) TimerEvent: {}
+[0.946611] (my_py_pkg) StdoutLine: {'line': b'running develop\n'}
+[0.957420] (my_sensor_package) StdoutLine: {'line': b'running develop\n'}
+[1.008719] (-) TimerEvent: {}
+[1.068109] (my_py_pkg) StdoutLine: {'line': b'Removing /root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)\n'}
+[1.075799] (my_sensor_package) StdoutLine: {'line': b'Removing /root/ros2_ws/install/my_sensor_package/lib/python3.10/site-packages/my-sensor-package.egg-link (link to .)\n'}
+[1.095847] (my_py_pkg) CommandEnded: {'returncode': 0}
+[1.096778] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_py_pkg', 'build', '--build-base', '/root/ros2_ws/build/my_py_pkg/build', 'install', '--record', '/root/ros2_ws/build/my_py_pkg/install.log', '--single-version-externally-managed', 'install_data', '--force'], 'cwd': '/root/ros2_ws/src/my_py_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'root', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/root', 'OLDPWD': '/root', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/root/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', 'NAME': 'Priyanshu', 'WSL_INTEROP': '/run/WSL/46457_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/e/Python program/Scripts:/mnt/e/Python program:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/e/Coding/New folder/mingw64/bin:/mnt/c/Users/ASUS/AppData/Roaming/npm:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/e/Git/cmd:/mnt/e/Python program/Scripts/:/mnt/e/Python program/:/mnt/c/Users/ASUS/AppData/Local/Programs/Python/Launcher/:/mnt/e/Python program/Scripts:/mnt/c/Users/ASUS/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ASUS/.dotnet/tools:/mnt/e/SIGMA WEB DEV/VS code/Microsoft VS Code/bin:/mnt/e/VIRTUAL BOX/folder for the MacOS 7.0:/mnt/c/Users/ASUS/AppData/Roaming/npm:/snap/bin', 'WT_SESSION': 'caac01c1-4b9d-4464-a124-c85cfe9d063e', 'XDG_RUNTIME_DIR': '/run/user/0/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/my_sensor_package:/root/ros2_ws/install/my_py_pkg:/root/ros2_ws/install/humanoid_description:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/root/ros2_ws/build/my_py_pkg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/root/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/root/ros2_ws/build/my_sensor_package:/root/ros2_ws/install/my_sensor_package/lib/python3.10/site-packages:/root/ros2_ws/build/my_py_pkg:/root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/humanoid_description', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[1.108838] (-) TimerEvent: {}
+[1.110454] (my_sensor_package) CommandEnded: {'returncode': 0}
+[1.111660] (my_sensor_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_sensor_package', 'build', '--build-base', '/root/ros2_ws/build/my_sensor_package/build', 'install', '--record', '/root/ros2_ws/build/my_sensor_package/install.log', '--single-version-externally-managed', 'install_data', '--force'], 'cwd': '/root/ros2_ws/src/my_sensor_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'root', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/root', 'OLDPWD': '/root', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/root/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', 'NAME': 'Priyanshu', 'WSL_INTEROP': '/run/WSL/46457_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/e/Python program/Scripts:/mnt/e/Python program:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/e/Coding/New folder/mingw64/bin:/mnt/c/Users/ASUS/AppData/Roaming/npm:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/e/Git/cmd:/mnt/e/Python program/Scripts/:/mnt/e/Python program/:/mnt/c/Users/ASUS/AppData/Local/Programs/Python/Launcher/:/mnt/e/Python program/Scripts:/mnt/c/Users/ASUS/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ASUS/.dotnet/tools:/mnt/e/SIGMA WEB DEV/VS code/Microsoft VS Code/bin:/mnt/e/VIRTUAL BOX/folder for the MacOS 7.0:/mnt/c/Users/ASUS/AppData/Roaming/npm:/snap/bin', 'WT_SESSION': 'caac01c1-4b9d-4464-a124-c85cfe9d063e', 'XDG_RUNTIME_DIR': '/run/user/0/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/my_sensor_package:/root/ros2_ws/install/my_py_pkg:/root/ros2_ws/install/humanoid_description:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/root/ros2_ws/build/my_sensor_package', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/root/ros2_ws/build/my_sensor_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/my_sensor_package/lib/python3.10/site-packages:/root/ros2_ws/build/my_sensor_package:/root/ros2_ws/install/my_sensor_package/lib/python3.10/site-packages:/root/ros2_ws/build/my_py_pkg:/root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/humanoid_description', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[1.209696] (-) TimerEvent: {}
+[1.287609] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.288233] (my_py_pkg) StdoutLine: {'line': b'writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO\n'}
+[1.288481] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt\n'}
+[1.289022] (my_py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt\n'}
+[1.289189] (my_py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt\n'}
+[1.289325] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt\n'}
+[1.291059] (my_py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[1.291711] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[1.291819] (my_py_pkg) StdoutLine: {'line': b'running build\n'}
+[1.291881] (my_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[1.293068] (my_py_pkg) StdoutLine: {'line': b'running install\n'}
+[1.293304] (my_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.293884] (my_py_pkg) StdoutLine: {'line': b'creating /root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[1.294471] (my_py_pkg) StdoutLine: {'line': b'copying /root/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[1.294618] (my_py_pkg) StdoutLine: {'line': b'copying /root/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/turtle_controller.py -> /root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[1.295053] (my_py_pkg) StdoutLine: {'line': b'copying /root/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/pose_subscriber.py -> /root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[1.295450] (my_py_pkg) StdoutLine: {'line': b'copying /root/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/draw_circle.py -> /root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[1.296038] (my_py_pkg) StdoutLine: {'line': b'copying /root/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[1.296764] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[1.297399] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/turtle_controller.py to turtle_controller.cpython-310.pyc\n'}
+[1.297809] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/pose_subscriber.py to pose_subscriber.cpython-310.pyc\n'}
+[1.298130] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/draw_circle.py to draw_circle.cpython-310.pyc\n'}
+[1.298405] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-310.pyc\n'}
+[1.298737] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[1.298968] (my_py_pkg) StdoutLine: {'line': b'copying resource/my_py_pkg -> /root/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages\n'}
+[1.299108] (my_py_pkg) StdoutLine: {'line': b'copying package.xml -> /root/ros2_ws/install/my_py_pkg/share/my_py_pkg\n'}
+[1.299258] (my_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.300807] (my_py_pkg) StdoutLine: {'line': b'Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info\n'}
+[1.302746] (my_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.304374] (my_sensor_package) StdoutLine: {'line': b'running egg_info\n'}
+[1.304978] (my_sensor_package) StdoutLine: {'line': b'writing ../../build/my_sensor_package/my_sensor_package.egg-info/PKG-INFO\n'}
+[1.305275] (my_sensor_package) StdoutLine: {'line': b'writing dependency_links to ../../build/my_sensor_package/my_sensor_package.egg-info/dependency_links.txt\n'}
+[1.305463] (my_sensor_package) StdoutLine: {'line': b'writing entry points to ../../build/my_sensor_package/my_sensor_package.egg-info/entry_points.txt\n'}
+[1.305697] (my_sensor_package) StdoutLine: {'line': b'writing requirements to ../../build/my_sensor_package/my_sensor_package.egg-info/requires.txt\n'}
+[1.305779] (my_sensor_package) StdoutLine: {'line': b'writing top-level names to ../../build/my_sensor_package/my_sensor_package.egg-info/top_level.txt\n'}
+[1.307566] (my_sensor_package) StdoutLine: {'line': b"reading manifest file '../../build/my_sensor_package/my_sensor_package.egg-info/SOURCES.txt'\n"}
+[1.308255] (my_sensor_package) StdoutLine: {'line': b"writing manifest file '../../build/my_sensor_package/my_sensor_package.egg-info/SOURCES.txt'\n"}
+[1.308398] (my_sensor_package) StdoutLine: {'line': b'running build\n'}
+[1.308511] (my_sensor_package) StdoutLine: {'line': b'running build_py\n'}
+[1.309781] (-) TimerEvent: {}
+[1.309962] (my_sensor_package) StdoutLine: {'line': b'running install\n'}
+[1.310158] (my_sensor_package) StdoutLine: {'line': b'running install_lib\n'}
+[1.310797] (my_sensor_package) StdoutLine: {'line': b'creating /root/ros2_ws/install/my_sensor_package/lib/python3.10/site-packages/my_sensor_package\n'}
+[1.311462] (my_sensor_package) StdoutLine: {'line': b'copying /root/ros2_ws/build/my_sensor_package/build/lib/my_sensor_package/sensor_subscriber.py -> /root/ros2_ws/install/my_sensor_package/lib/python3.10/site-packages/my_sensor_package\n'}
+[1.311898] (my_sensor_package) StdoutLine: {'line': b'copying /root/ros2_ws/build/my_sensor_package/build/lib/my_sensor_package/__init__.py -> /root/ros2_ws/install/my_sensor_package/lib/python3.10/site-packages/my_sensor_package\n'}
+[1.312025] (my_sensor_package) StdoutLine: {'line': b'copying /root/ros2_ws/build/my_sensor_package/build/lib/my_sensor_package/sensor_publisher.py -> /root/ros2_ws/install/my_sensor_package/lib/python3.10/site-packages/my_sensor_package\n'}
+[1.312841] (my_sensor_package) StdoutLine: {'line': b'byte-compiling /root/ros2_ws/install/my_sensor_package/lib/python3.10/site-packages/my_sensor_package/sensor_subscriber.py to sensor_subscriber.cpython-310.pyc\n'}
+[1.313791] (my_sensor_package) StdoutLine: {'line': b'byte-compiling /root/ros2_ws/install/my_sensor_package/lib/python3.10/site-packages/my_sensor_package/__init__.py to __init__.cpython-310.pyc\n'}
+[1.314027] (my_sensor_package) StdoutLine: {'line': b'byte-compiling /root/ros2_ws/install/my_sensor_package/lib/python3.10/site-packages/my_sensor_package/sensor_publisher.py to sensor_publisher.cpython-310.pyc\n'}
+[1.314367] (my_sensor_package) StdoutLine: {'line': b'running install_data\n'}
+[1.314506] (my_sensor_package) StdoutLine: {'line': b'copying resource/my_sensor_package -> /root/ros2_ws/install/my_sensor_package/share/ament_index/resource_index/packages\n'}
+[1.314701] (my_sensor_package) StdoutLine: {'line': b'copying package.xml -> /root/ros2_ws/install/my_sensor_package/share/my_sensor_package\n'}
+[1.315331] (my_sensor_package) StdoutLine: {'line': b'copying launch/sensor.launch.py -> /root/ros2_ws/install/my_sensor_package/share/my_sensor_package/launch\n'}
+[1.316624] (my_sensor_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.318319] (my_sensor_package) StdoutLine: {'line': b'Copying ../../build/my_sensor_package/my_sensor_package.egg-info to /root/ros2_ws/install/my_sensor_package/lib/python3.10/site-packages/my_sensor_package-0.0.0-py3.10.egg-info\n'}
+[1.319917] (my_py_pkg) StdoutLine: {'line': b'Installing draw_circle script to /root/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.320101] (my_py_pkg) StdoutLine: {'line': b'Installing pose_subscriber script to /root/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.320239] (my_py_pkg) StdoutLine: {'line': b'Installing test_node script to /root/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.320391] (my_py_pkg) StdoutLine: {'line': b'Installing turtle_controller script to /root/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.320611] (my_sensor_package) StdoutLine: {'line': b'running install_scripts\n'}
+[1.320753] (my_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/root/ros2_ws/build/my_py_pkg/install.log'\n"}
+[1.339763] (my_sensor_package) StdoutLine: {'line': b'Installing sensor_publisher_node script to /root/ros2_ws/install/my_sensor_package/lib/my_sensor_package\n'}
+[1.340102] (my_sensor_package) StdoutLine: {'line': b'Installing sensor_subscriber_node script to /root/ros2_ws/install/my_sensor_package/lib/my_sensor_package\n'}
+[1.340274] (my_sensor_package) StdoutLine: {'line': b"writing list of installed files to '/root/ros2_ws/build/my_sensor_package/install.log'\n"}
+[1.344756] (my_py_pkg) CommandEnded: {'returncode': 0}
+[1.354122] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[1.369560] (my_sensor_package) CommandEnded: {'returncode': 0}
+[1.375672] (my_sensor_package) JobEnded: {'identifier': 'my_sensor_package', 'rc': 0}
+[1.376311] (my_robot_bringup) JobStarted: {'identifier': 'my_robot_bringup'}
+[1.410023] (-) TimerEvent: {}
+[1.439956] (my_robot_bringup) JobProgress: {'identifier': 'my_robot_bringup', 'progress': 'cmake'}
+[1.441382] (my_robot_bringup) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/my_robot_bringup', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/my_robot_bringup'], 'cwd': '/root/ros2_ws/build/my_robot_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'Priyanshu'), ('WSL_INTEROP', '/run/WSL/46457_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/e/Python program/Scripts:/mnt/e/Python program:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/e/Coding/New folder/mingw64/bin:/mnt/c/Users/ASUS/AppData/Roaming/npm:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/e/Git/cmd:/mnt/e/Python program/Scripts/:/mnt/e/Python program/:/mnt/c/Users/ASUS/AppData/Local/Programs/Python/Launcher/:/mnt/e/Python program/Scripts:/mnt/c/Users/ASUS/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ASUS/.dotnet/tools:/mnt/e/SIGMA WEB DEV/VS code/Microsoft VS Code/bin:/mnt/e/VIRTUAL BOX/folder for the MacOS 7.0:/mnt/c/Users/ASUS/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', 'caac01c1-4b9d-4464-a124-c85cfe9d063e'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/my_sensor_package:/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/my_py_pkg:/root/ros2_ws/install/humanoid_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/ros2_ws/build/my_robot_bringup'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/ros2_ws/install/my_sensor_package/lib/python3.10/site-packages:/root/ros2_ws/build/my_sensor_package:/root/ros2_ws/build/my_py_pkg:/root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/humanoid_description:/root/ros2_ws/install/my_sensor_package:/root/ros2_ws/install/my_py_pkg:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[1.455086] (my_robot_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.473153] (humanoid_description) StdoutLine: {'line': b'-- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)\n'}
+[1.473688] (humanoid_description) StdoutLine: {'line': b'-- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[1.502233] (humanoid_description) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.505844] (humanoid_description) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.510161] (-) TimerEvent: {}
+[1.515551] (humanoid_description) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.528588] (humanoid_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.539800] (humanoid_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.563344] (my_robot_bringup) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.582714] (humanoid_description) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.585559] (humanoid_description) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.610508] (-) TimerEvent: {}
+[1.611769] (humanoid_description) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.625041] (humanoid_description) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.637502] (my_robot_bringup) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.645408] (my_robot_bringup) StdoutLine: {'line': b'-- Generating done\n'}
+[1.647910] (my_robot_bringup) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_ws/build/my_robot_bringup\n'}
+[1.651225] (my_robot_bringup) CommandEnded: {'returncode': 0}
+[1.651782] (my_robot_bringup) JobProgress: {'identifier': 'my_robot_bringup', 'progress': 'build'}
+[1.652304] (my_robot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/my_robot_bringup', '--', '-j16', '-l16'], 'cwd': '/root/ros2_ws/build/my_robot_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'Priyanshu'), ('WSL_INTEROP', '/run/WSL/46457_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/e/Python program/Scripts:/mnt/e/Python program:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/e/Coding/New folder/mingw64/bin:/mnt/c/Users/ASUS/AppData/Roaming/npm:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/e/Git/cmd:/mnt/e/Python program/Scripts/:/mnt/e/Python program/:/mnt/c/Users/ASUS/AppData/Local/Programs/Python/Launcher/:/mnt/e/Python program/Scripts:/mnt/c/Users/ASUS/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ASUS/.dotnet/tools:/mnt/e/SIGMA WEB DEV/VS code/Microsoft VS Code/bin:/mnt/e/VIRTUAL BOX/folder for the MacOS 7.0:/mnt/c/Users/ASUS/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', 'caac01c1-4b9d-4464-a124-c85cfe9d063e'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/my_sensor_package:/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/my_py_pkg:/root/ros2_ws/install/humanoid_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/ros2_ws/build/my_robot_bringup'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/ros2_ws/install/my_sensor_package/lib/python3.10/site-packages:/root/ros2_ws/build/my_sensor_package:/root/ros2_ws/build/my_py_pkg:/root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/humanoid_description:/root/ros2_ws/install/my_sensor_package:/root/ros2_ws/install/my_py_pkg:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[1.695337] (my_robot_bringup) CommandEnded: {'returncode': 0}
+[1.696074] (my_robot_bringup) JobProgress: {'identifier': 'my_robot_bringup', 'progress': 'install'}
+[1.696773] (humanoid_description) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.705020] (humanoid_description) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.706209] (my_robot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/build/my_robot_bringup'], 'cwd': '/root/ros2_ws/build/my_robot_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'Priyanshu'), ('WSL_INTEROP', '/run/WSL/46457_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/e/Python program/Scripts:/mnt/e/Python program:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/e/Coding/New folder/mingw64/bin:/mnt/c/Users/ASUS/AppData/Roaming/npm:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/e/Git/cmd:/mnt/e/Python program/Scripts/:/mnt/e/Python program/:/mnt/c/Users/ASUS/AppData/Local/Programs/Python/Launcher/:/mnt/e/Python program/Scripts:/mnt/c/Users/ASUS/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ASUS/.dotnet/tools:/mnt/e/SIGMA WEB DEV/VS code/Microsoft VS Code/bin:/mnt/e/VIRTUAL BOX/folder for the MacOS 7.0:/mnt/c/Users/ASUS/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', 'caac01c1-4b9d-4464-a124-c85cfe9d063e'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/my_sensor_package:/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/my_py_pkg:/root/ros2_ws/install/humanoid_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/ros2_ws/build/my_robot_bringup'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/ros2_ws/install/my_sensor_package/lib/python3.10/site-packages:/root/ros2_ws/build/my_sensor_package:/root/ros2_ws/build/my_py_pkg:/root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/humanoid_description:/root/ros2_ws/install/my_sensor_package:/root/ros2_ws/install/my_py_pkg:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[1.710643] (-) TimerEvent: {}
+[1.715207] (my_robot_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.715569] (my_robot_bringup) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.715897] (my_robot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/demo.launch.py\n'}
+[1.716085] (my_robot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/package_run_dependencies/my_robot_bringup\n'}
+[1.716236] (my_robot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/parent_prefix_path/my_robot_bringup\n'}
+[1.716410] (my_robot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.sh\n'}
+[1.716572] (my_robot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.dsv\n'}
+[1.716740] (my_robot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/path.sh\n'}
+[1.716865] (my_robot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/path.dsv\n'}
+[1.717028] (my_robot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.bash\n'}
+[1.717149] (my_robot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.sh\n'}
+[1.717277] (my_robot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.zsh\n'}
+[1.717401] (my_robot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.dsv\n'}
+[1.717503] (my_robot_bringup) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.dsv\n'}
+[1.728210] (my_robot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/packages/my_robot_bringup\n'}
+[1.728784] (my_robot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig.cmake\n'}
+[1.728989] (my_robot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig-version.cmake\n'}
+[1.729057] (my_robot_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.xml\n'}
+[1.730998] (my_robot_bringup) CommandEnded: {'returncode': 0}
+[1.740727] (my_robot_bringup) JobEnded: {'identifier': 'my_robot_bringup', 'rc': 0}
+[1.769846] (humanoid_description) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.811091] (-) TimerEvent: {}
+[1.861490] (humanoid_description) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[1.894677] (humanoid_description) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[1.896767] (humanoid_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.904487] (humanoid_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.906410] (humanoid_description) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[1.911282] (-) TimerEvent: {}
+[1.912125] (humanoid_description) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[1.912474] (humanoid_description) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[1.919969] (humanoid_description) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[1.920197] (humanoid_description) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[1.920340] (humanoid_description) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[1.920634] (humanoid_description) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[1.920748] (humanoid_description) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[1.920817] (humanoid_description) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[1.920882] (humanoid_description) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[1.920939] (humanoid_description) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[1.920996] (humanoid_description) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[1.921057] (humanoid_description) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[1.921111] (humanoid_description) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[1.921164] (humanoid_description) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[2.012126] (-) TimerEvent: {}
+[2.113273] (-) TimerEvent: {}
+[2.214455] (-) TimerEvent: {}
+[2.315631] (-) TimerEvent: {}
+[2.416783] (-) TimerEvent: {}
+[2.517986] (-) TimerEvent: {}
+[2.619155] (-) TimerEvent: {}
+[2.719649] (-) TimerEvent: {}
+[2.820688] (-) TimerEvent: {}
+[2.921692] (-) TimerEvent: {}
+[3.022732] (-) TimerEvent: {}
+[3.123781] (-) TimerEvent: {}
+[3.224867] (-) TimerEvent: {}
+[3.325960] (-) TimerEvent: {}
+[3.426998] (-) TimerEvent: {}
+[3.528037] (-) TimerEvent: {}
+[3.629069] (-) TimerEvent: {}
+[3.730047] (-) TimerEvent: {}
+[3.830469] (-) TimerEvent: {}
+[3.931432] (-) TimerEvent: {}
+[4.032413] (-) TimerEvent: {}
+[4.133377] (-) TimerEvent: {}
+[4.234345] (-) TimerEvent: {}
+[4.335337] (-) TimerEvent: {}
+[4.436348] (-) TimerEvent: {}
+[4.537342] (-) TimerEvent: {}
+[4.638283] (-) TimerEvent: {}
+[4.739145] (-) TimerEvent: {}
+[4.840023] (-) TimerEvent: {}
+[4.940638] (-) TimerEvent: {}
+[5.041479] (-) TimerEvent: {}
+[5.142327] (-) TimerEvent: {}
+[5.243234] (-) TimerEvent: {}
+[5.344141] (-) TimerEvent: {}
+[5.445019] (-) TimerEvent: {}
+[5.545909] (-) TimerEvent: {}
+[5.646796] (-) TimerEvent: {}
+[5.747587] (-) TimerEvent: {}
+[5.848376] (-) TimerEvent: {}
+[5.949169] (-) TimerEvent: {}
+[6.049937] (-) TimerEvent: {}
+[6.150736] (-) TimerEvent: {}
+[6.251527] (-) TimerEvent: {}
+[6.352333] (-) TimerEvent: {}
+[6.453181] (-) TimerEvent: {}
+[6.553980] (-) TimerEvent: {}
+[6.654759] (-) TimerEvent: {}
+[6.755481] (-) TimerEvent: {}
+[6.856215] (-) TimerEvent: {}
+[6.956618] (-) TimerEvent: {}
+[7.057021] (-) TimerEvent: {}
+[7.157434] (-) TimerEvent: {}
+[7.257836] (-) TimerEvent: {}
+[7.358264] (-) TimerEvent: {}
+[7.458692] (-) TimerEvent: {}
+[7.559068] (-) TimerEvent: {}
+[7.659451] (-) TimerEvent: {}
+[7.759856] (-) TimerEvent: {}
+[7.860273] (-) TimerEvent: {}
+[7.960687] (-) TimerEvent: {}
+[8.061074] (-) TimerEvent: {}
+[8.161472] (-) TimerEvent: {}
+[8.261887] (-) TimerEvent: {}
+[8.362298] (-) TimerEvent: {}
+[8.462662] (-) TimerEvent: {}
+[8.563035] (-) TimerEvent: {}
+[8.663446] (-) TimerEvent: {}
+[8.763839] (-) TimerEvent: {}
+[8.864205] (-) TimerEvent: {}
+[8.964558] (-) TimerEvent: {}
+[9.064918] (-) TimerEvent: {}
+[9.165267] (-) TimerEvent: {}
+[9.265655] (-) TimerEvent: {}
+[9.366057] (-) TimerEvent: {}
+[9.466477] (-) TimerEvent: {}
+[9.566854] (-) TimerEvent: {}
+[9.667225] (-) TimerEvent: {}
+[9.767615] (-) TimerEvent: {}
+[9.868049] (-) TimerEvent: {}
+[9.968481] (-) TimerEvent: {}
+[10.068844] (-) TimerEvent: {}
+[10.169232] (-) TimerEvent: {}
+[10.269636] (-) TimerEvent: {}
+[10.369974] (-) TimerEvent: {}
+[10.470295] (-) TimerEvent: {}
+[10.570653] (-) TimerEvent: {}
+[10.671009] (-) TimerEvent: {}
+[10.771316] (-) TimerEvent: {}
+[10.871673] (-) TimerEvent: {}
+[10.971979] (-) TimerEvent: {}
+[11.072283] (-) TimerEvent: {}
+[11.172629] (-) TimerEvent: {}
+[11.272957] (-) TimerEvent: {}
+[11.373283] (-) TimerEvent: {}
+[11.473787] (-) TimerEvent: {}
+[11.574177] (-) TimerEvent: {}
+[11.674563] (-) TimerEvent: {}
+[11.774883] (-) TimerEvent: {}
+[11.875360] (-) TimerEvent: {}
+[11.975731] (-) TimerEvent: {}
+[12.076050] (-) TimerEvent: {}
+[12.176419] (-) TimerEvent: {}
+[12.276855] (-) TimerEvent: {}
+[12.377211] (-) TimerEvent: {}
+[12.477574] (-) TimerEvent: {}
+[12.577952] (-) TimerEvent: {}
+[12.678320] (-) TimerEvent: {}
+[12.778732] (-) TimerEvent: {}
+[12.879102] (-) TimerEvent: {}
+[12.979477] (-) TimerEvent: {}
+[13.079808] (-) TimerEvent: {}
+[13.180145] (-) TimerEvent: {}
+[13.280517] (-) TimerEvent: {}
+[13.380867] (-) TimerEvent: {}
+[13.481250] (-) TimerEvent: {}
+[13.581631] (-) TimerEvent: {}
+[13.682002] (-) TimerEvent: {}
+[13.782391] (-) TimerEvent: {}
+[13.882705] (-) TimerEvent: {}
+[13.983002] (-) TimerEvent: {}
+[14.083357] (-) TimerEvent: {}
+[14.183658] (-) TimerEvent: {}
+[14.283982] (-) TimerEvent: {}
+[14.384328] (-) TimerEvent: {}
+[14.484715] (-) TimerEvent: {}
+[14.585081] (-) TimerEvent: {}
+[14.685485] (-) TimerEvent: {}
+[14.785831] (-) TimerEvent: {}
+[14.886213] (-) TimerEvent: {}
+[14.986593] (-) TimerEvent: {}
+[15.086905] (-) TimerEvent: {}
+[15.187202] (-) TimerEvent: {}
+[15.287579] (-) TimerEvent: {}
+[15.387955] (-) TimerEvent: {}
+[15.488299] (-) TimerEvent: {}
+[15.588631] (-) TimerEvent: {}
+[15.688872] (humanoid_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[15.689048] (-) TimerEvent: {}
+[15.689587] (humanoid_description) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[15.689978] (humanoid_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[15.789176] (-) TimerEvent: {}
+[15.889528] (-) TimerEvent: {}
+[15.989878] (-) TimerEvent: {}
+[16.090257] (-) TimerEvent: {}
+[16.190632] (-) TimerEvent: {}
+[16.290953] (-) TimerEvent: {}
+[16.391302] (-) TimerEvent: {}
+[16.491629] (-) TimerEvent: {}
+[16.591960] (-) TimerEvent: {}
+[16.601128] (humanoid_description) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[16.692045] (-) TimerEvent: {}
+[16.792361] (-) TimerEvent: {}
+[16.892710] (-) TimerEvent: {}
+[16.993091] (-) TimerEvent: {}
+[17.093423] (-) TimerEvent: {}
+[17.193793] (-) TimerEvent: {}
+[17.294155] (-) TimerEvent: {}
+[17.394496] (-) TimerEvent: {}
+[17.494811] (-) TimerEvent: {}
+[17.514579] (humanoid_description) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[17.519805] (humanoid_description) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[17.537548] (humanoid_description) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[17.589164] (humanoid_description) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[17.594932] (-) TimerEvent: {}
+[17.604918] (humanoid_description) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[17.643977] (humanoid_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[17.644336] (humanoid_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[17.695046] (-) TimerEvent: {}
+[17.795360] (-) TimerEvent: {}
+[17.895654] (-) TimerEvent: {}
+[17.996124] (-) TimerEvent: {}
+[18.096502] (-) TimerEvent: {}
+[18.196853] (-) TimerEvent: {}
+[18.297239] (-) TimerEvent: {}
+[18.397608] (-) TimerEvent: {}
+[18.498000] (-) TimerEvent: {}
+[18.518582] (humanoid_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[18.526522] (humanoid_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[18.527062] (humanoid_description) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[18.527465] (humanoid_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[18.528031] (humanoid_description) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[18.528137] (humanoid_description) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[18.591576] (humanoid_description) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[18.592019] (humanoid_description) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[18.592365] (humanoid_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[18.592692] (humanoid_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[18.593673] (humanoid_description) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[18.594024] (humanoid_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[18.598098] (-) TimerEvent: {}
+[18.698438] (-) TimerEvent: {}
+[18.798789] (-) TimerEvent: {}
+[18.899115] (-) TimerEvent: {}
+[18.999511] (-) TimerEvent: {}
+[19.099892] (-) TimerEvent: {}
+[19.200270] (-) TimerEvent: {}
+[19.300635] (-) TimerEvent: {}
+[19.400946] (-) TimerEvent: {}
+[19.501296] (-) TimerEvent: {}
+[19.601681] (-) TimerEvent: {}
+[19.615195] (humanoid_description) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[19.630794] (humanoid_description) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[19.675694] (humanoid_description) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[19.691638] (humanoid_description) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[19.701776] (-) TimerEvent: {}
+[19.729831] (humanoid_description) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[19.730197] (humanoid_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[19.730418] (humanoid_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[19.733046] (humanoid_description) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[19.734140] (humanoid_description) StdoutLine: {'line': b'-- Found gazebo_msgs: 3.9.0 (/opt/ros/humble/share/gazebo_msgs/cmake)\n'}
+[19.777134] (humanoid_description) StdoutLine: {'line': b'-- Found ros2_control: 2.51.0 (/opt/ros/humble/share/ros2_control/cmake)\n'}
+[19.777638] (humanoid_description) StdoutLine: {'line': b'-- Found controller_manager: 2.51.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[19.801888] (-) TimerEvent: {}
+[19.900839] (humanoid_description) StdoutLine: {'line': b'-- Found joint_state_broadcaster: 2.47.0 (/opt/ros/humble/share/joint_state_broadcaster/cmake)\n'}
+[19.902003] (-) TimerEvent: {}
+[19.919860] (humanoid_description) StdoutLine: {'line': b'-- Found position_controllers: 2.47.0 (/opt/ros/humble/share/position_controllers/cmake)\n'}
+[19.936235] (humanoid_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[20.002094] (-) TimerEvent: {}
+[20.002547] (humanoid_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[20.003240] (humanoid_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[20.003747] (humanoid_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[20.005235] (humanoid_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[20.006976] (humanoid_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[20.018828] (humanoid_description) StdoutLine: {'line': b'-- Generating done\n'}
+[20.022466] (humanoid_description) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_ws/build/humanoid_description\n'}
+[20.034989] (humanoid_description) CommandEnded: {'returncode': 0}
+[20.036793] (humanoid_description) JobProgress: {'identifier': 'humanoid_description', 'progress': 'build'}
+[20.036851] (humanoid_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/humanoid_description', '--', '-j16', '-l16'], 'cwd': '/root/ros2_ws/build/humanoid_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'Priyanshu'), ('WSL_INTEROP', '/run/WSL/46457_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/e/Python program/Scripts:/mnt/e/Python program:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/e/Coding/New folder/mingw64/bin:/mnt/c/Users/ASUS/AppData/Roaming/npm:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/e/Git/cmd:/mnt/e/Python program/Scripts/:/mnt/e/Python program/:/mnt/c/Users/ASUS/AppData/Local/Programs/Python/Launcher/:/mnt/e/Python program/Scripts:/mnt/c/Users/ASUS/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ASUS/.dotnet/tools:/mnt/e/SIGMA WEB DEV/VS code/Microsoft VS Code/bin:/mnt/e/VIRTUAL BOX/folder for the MacOS 7.0:/mnt/c/Users/ASUS/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', 'caac01c1-4b9d-4464-a124-c85cfe9d063e'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/my_sensor_package:/root/ros2_ws/install/my_py_pkg:/root/ros2_ws/install/humanoid_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/ros2_ws/build/humanoid_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/ros2_ws/build/my_sensor_package:/root/ros2_ws/install/my_sensor_package/lib/python3.10/site-packages:/root/ros2_ws/build/my_py_pkg:/root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/humanoid_description:/root/ros2_ws/install/my_sensor_package:/root/ros2_ws/install/my_py_pkg:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[20.084002] (humanoid_description) CommandEnded: {'returncode': 0}
+[20.084772] (humanoid_description) JobProgress: {'identifier': 'humanoid_description', 'progress': 'install'}
+[20.085080] (humanoid_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/build/humanoid_description'], 'cwd': '/root/ros2_ws/build/humanoid_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'Priyanshu'), ('WSL_INTEROP', '/run/WSL/46457_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/e/Python program/Scripts:/mnt/e/Python program:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/e/Coding/New folder/mingw64/bin:/mnt/c/Users/ASUS/AppData/Roaming/npm:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/e/Git/cmd:/mnt/e/Python program/Scripts/:/mnt/e/Python program/:/mnt/c/Users/ASUS/AppData/Local/Programs/Python/Launcher/:/mnt/e/Python program/Scripts:/mnt/c/Users/ASUS/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ASUS/.dotnet/tools:/mnt/e/SIGMA WEB DEV/VS code/Microsoft VS Code/bin:/mnt/e/VIRTUAL BOX/folder for the MacOS 7.0:/mnt/c/Users/ASUS/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', 'caac01c1-4b9d-4464-a124-c85cfe9d063e'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/my_sensor_package:/root/ros2_ws/install/my_py_pkg:/root/ros2_ws/install/humanoid_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/ros2_ws/build/humanoid_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/ros2_ws/build/my_sensor_package:/root/ros2_ws/install/my_sensor_package/lib/python3.10/site-packages:/root/ros2_ws/build/my_py_pkg:/root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/humanoid_description:/root/ros2_ws/install/my_sensor_package:/root/ros2_ws/install/my_py_pkg:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[20.093274] (humanoid_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.093692] (humanoid_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[20.094018] (humanoid_description) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/humanoid_description/share/humanoid_description/launch/spawn_humanoid.launch.py\n'}
+[20.094258] (humanoid_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/humanoid_description/share/humanoid_description/urdf/code copy.txt\n'}
+[20.102228] (-) TimerEvent: {}
+[20.103893] (humanoid_description) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/humanoid_description/share/humanoid_description/urdf/code.txt\n'}
+[20.104161] (humanoid_description) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/humanoid_description/share/humanoid_description/urdf/humanoid.urdf.xacro\n'}
+[20.104507] (humanoid_description) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/humanoid_description/share/humanoid_description/config/humanoid_controllers.yaml\n'}
+[20.104671] (humanoid_description) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/humanoid_description/share/ament_index/resource_index/package_run_dependencies/humanoid_description\n'}
+[20.104798] (humanoid_description) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/humanoid_description/share/ament_index/resource_index/parent_prefix_path/humanoid_description\n'}
+[20.104888] (humanoid_description) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/humanoid_description/share/humanoid_description/environment/ament_prefix_path.sh\n'}
+[20.104993] (humanoid_description) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/humanoid_description/share/humanoid_description/environment/ament_prefix_path.dsv\n'}
+[20.105165] (humanoid_description) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/humanoid_description/share/humanoid_description/environment/path.sh\n'}
+[20.105290] (humanoid_description) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/humanoid_description/share/humanoid_description/environment/path.dsv\n'}
+[20.105418] (humanoid_description) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/humanoid_description/share/humanoid_description/local_setup.bash\n'}
+[20.105548] (humanoid_description) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/humanoid_description/share/humanoid_description/local_setup.sh\n'}
+[20.105669] (humanoid_description) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/humanoid_description/share/humanoid_description/local_setup.zsh\n'}
+[20.105788] (humanoid_description) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/humanoid_description/share/humanoid_description/local_setup.dsv\n'}
+[20.105932] (humanoid_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/humanoid_description/share/humanoid_description/package.dsv\n'}
+[20.115929] (humanoid_description) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/humanoid_description/share/ament_index/resource_index/packages/humanoid_description\n'}
+[20.116254] (humanoid_description) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/humanoid_description/share/humanoid_description/cmake/humanoid_descriptionConfig.cmake\n'}
+[20.116375] (humanoid_description) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/humanoid_description/share/humanoid_description/cmake/humanoid_descriptionConfig-version.cmake\n'}
+[20.116604] (humanoid_description) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/humanoid_description/share/humanoid_description/package.xml\n'}
+[20.118561] (humanoid_description) CommandEnded: {'returncode': 0}
+[20.127956] (humanoid_description) JobEnded: {'identifier': 'humanoid_description', 'rc': 0}
+[20.129072] (-) EventReactorShutdown: {}

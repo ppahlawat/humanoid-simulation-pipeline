@@ -1,0 +1,3 @@
+[console_scripts]
+color_detector = humanoid_perception.color_detector:main
+

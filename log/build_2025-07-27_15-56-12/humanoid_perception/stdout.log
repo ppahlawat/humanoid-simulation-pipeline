@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating humanoid_perception.egg-info
+writing humanoid_perception.egg-info/PKG-INFO
+writing dependency_links to humanoid_perception.egg-info/dependency_links.txt
+writing entry points to humanoid_perception.egg-info/entry_points.txt
+writing requirements to humanoid_perception.egg-info/requires.txt
+writing top-level names to humanoid_perception.egg-info/top_level.txt
+writing manifest file 'humanoid_perception.egg-info/SOURCES.txt'
+reading manifest file 'humanoid_perception.egg-info/SOURCES.txt'
+writing manifest file 'humanoid_perception.egg-info/SOURCES.txt'
+running build_ext
+Creating /root/ros2_ws/install/humanoid_perception/lib/python3.10/site-packages/humanoid-perception.egg-link (link to .)
+Installing color_detector script to /root/ros2_ws/install/humanoid_perception/lib/humanoid_perception
+
+Installed /root/ros2_ws/build/humanoid_perception
+running symlink_data
+creating /root/ros2_ws/install/humanoid_perception/share/ament_index
+creating /root/ros2_ws/install/humanoid_perception/share/ament_index/resource_index
+creating /root/ros2_ws/install/humanoid_perception/share/ament_index/resource_index/packages
+symbolically linking /root/ros2_ws/build/humanoid_perception/resource/humanoid_perception -> /root/ros2_ws/install/humanoid_perception/share/ament_index/resource_index/packages
+symbolically linking /root/ros2_ws/build/humanoid_perception/package.xml -> /root/ros2_ws/install/humanoid_perception/share/humanoid_perception
+creating /root/ros2_ws/install/humanoid_perception/share/humanoid_perception/launch
+symbolically linking /root/ros2_ws/build/humanoid_perception/launch/perception.launch.py -> /root/ros2_ws/install/humanoid_perception/share/humanoid_perception/launch

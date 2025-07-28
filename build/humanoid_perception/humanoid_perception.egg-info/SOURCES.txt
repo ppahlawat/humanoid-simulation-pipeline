@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+humanoid_perception/__init__.py
+humanoid_perception/color_detector.py
+humanoid_perception.egg-info/PKG-INFO
+humanoid_perception.egg-info/SOURCES.txt
+humanoid_perception.egg-info/dependency_links.txt
+humanoid_perception.egg-info/entry_points.txt
+humanoid_perception.egg-info/requires.txt
+humanoid_perception.egg-info/top_level.txt
+humanoid_perception.egg-info/zip-safe
+launch/perception.launch.py
+resource/humanoid_perception

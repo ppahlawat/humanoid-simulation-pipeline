@@ -1,0 +1,26 @@
+[1.092s] Invoking command in '/root/ros2_ws/build/humanoid_perception': PYTHONPATH=/root/ros2_ws/build/humanoid_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/humanoid_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/humanoid_perception/build --no-deps symlink_data
+[1.285s] running develop
+[1.389s] running egg_info
+[1.389s] creating humanoid_perception.egg-info
+[1.390s] writing humanoid_perception.egg-info/PKG-INFO
+[1.390s] writing dependency_links to humanoid_perception.egg-info/dependency_links.txt
+[1.391s] writing entry points to humanoid_perception.egg-info/entry_points.txt
+[1.391s] writing requirements to humanoid_perception.egg-info/requires.txt
+[1.391s] writing top-level names to humanoid_perception.egg-info/top_level.txt
+[1.391s] writing manifest file 'humanoid_perception.egg-info/SOURCES.txt'
+[1.392s] reading manifest file 'humanoid_perception.egg-info/SOURCES.txt'
+[1.393s] writing manifest file 'humanoid_perception.egg-info/SOURCES.txt'
+[1.394s] running build_ext
+[1.394s] Creating /root/ros2_ws/install/humanoid_perception/lib/python3.10/site-packages/humanoid-perception.egg-link (link to .)
+[1.395s] Installing color_detector script to /root/ros2_ws/install/humanoid_perception/lib/humanoid_perception
+[1.396s] 
+[1.396s] Installed /root/ros2_ws/build/humanoid_perception
+[1.396s] running symlink_data
+[1.396s] creating /root/ros2_ws/install/humanoid_perception/share/ament_index
+[1.397s] creating /root/ros2_ws/install/humanoid_perception/share/ament_index/resource_index
+[1.397s] creating /root/ros2_ws/install/humanoid_perception/share/ament_index/resource_index/packages
+[1.398s] symbolically linking /root/ros2_ws/build/humanoid_perception/resource/humanoid_perception -> /root/ros2_ws/install/humanoid_perception/share/ament_index/resource_index/packages
+[1.398s] symbolically linking /root/ros2_ws/build/humanoid_perception/package.xml -> /root/ros2_ws/install/humanoid_perception/share/humanoid_perception
+[1.398s] creating /root/ros2_ws/install/humanoid_perception/share/humanoid_perception/launch
+[1.399s] symbolically linking /root/ros2_ws/build/humanoid_perception/launch/perception.launch.py -> /root/ros2_ws/install/humanoid_perception/share/humanoid_perception/launch
+[1.435s] Invoked command in '/root/ros2_ws/build/humanoid_perception' returned '0': PYTHONPATH=/root/ros2_ws/build/humanoid_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/humanoid_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/humanoid_perception/build --no-deps symlink_data

@@ -1,0 +1,3 @@
+[console_scripts]
+rviz_motion_controller = humanoid_final_control.rviz_motion_controller:main
+

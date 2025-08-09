@@ -1,0 +1,3 @@
+[console_scripts]
+cube_animator = rviz_slider_test.cube_animator:main
+

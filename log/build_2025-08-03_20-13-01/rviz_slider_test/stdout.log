@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/rviz_slider_test/rviz_slider_test.egg-info
+writing ../../build/rviz_slider_test/rviz_slider_test.egg-info/PKG-INFO
+writing dependency_links to ../../build/rviz_slider_test/rviz_slider_test.egg-info/dependency_links.txt
+writing entry points to ../../build/rviz_slider_test/rviz_slider_test.egg-info/entry_points.txt
+writing requirements to ../../build/rviz_slider_test/rviz_slider_test.egg-info/requires.txt
+writing top-level names to ../../build/rviz_slider_test/rviz_slider_test.egg-info/top_level.txt
+writing manifest file '../../build/rviz_slider_test/rviz_slider_test.egg-info/SOURCES.txt'
+reading manifest file '../../build/rviz_slider_test/rviz_slider_test.egg-info/SOURCES.txt'
+writing manifest file '../../build/rviz_slider_test/rviz_slider_test.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/ros2_ws/build/rviz_slider_test/build
+creating /root/ros2_ws/build/rviz_slider_test/build/lib
+creating /root/ros2_ws/build/rviz_slider_test/build/lib/rviz_slider_test
+copying rviz_slider_test/__init__.py -> /root/ros2_ws/build/rviz_slider_test/build/lib/rviz_slider_test
+copying rviz_slider_test/cube_animator.py -> /root/ros2_ws/build/rviz_slider_test/build/lib/rviz_slider_test
+running install
+running install_lib
+creating /root/ros2_ws/install/rviz_slider_test/lib/python3.10/site-packages/rviz_slider_test
+copying /root/ros2_ws/build/rviz_slider_test/build/lib/rviz_slider_test/__init__.py -> /root/ros2_ws/install/rviz_slider_test/lib/python3.10/site-packages/rviz_slider_test
+copying /root/ros2_ws/build/rviz_slider_test/build/lib/rviz_slider_test/cube_animator.py -> /root/ros2_ws/install/rviz_slider_test/lib/python3.10/site-packages/rviz_slider_test
+byte-compiling /root/ros2_ws/install/rviz_slider_test/lib/python3.10/site-packages/rviz_slider_test/__init__.py to __init__.cpython-310.pyc
+byte-compiling /root/ros2_ws/install/rviz_slider_test/lib/python3.10/site-packages/rviz_slider_test/cube_animator.py to cube_animator.cpython-310.pyc
+running install_data
+creating /root/ros2_ws/install/rviz_slider_test/share/ament_index
+creating /root/ros2_ws/install/rviz_slider_test/share/ament_index/resource_index
+creating /root/ros2_ws/install/rviz_slider_test/share/ament_index/resource_index/packages
+copying resource/rviz_slider_test -> /root/ros2_ws/install/rviz_slider_test/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros2_ws/install/rviz_slider_test/share/rviz_slider_test
+creating /root/ros2_ws/install/rviz_slider_test/share/rviz_slider_test/urdf
+copying urdf/animated_cube.urdf.xacro -> /root/ros2_ws/install/rviz_slider_test/share/rviz_slider_test/urdf
+creating /root/ros2_ws/install/rviz_slider_test/share/rviz_slider_test/launch
+running install_egg_info
+Copying ../../build/rviz_slider_test/rviz_slider_test.egg-info to /root/ros2_ws/install/rviz_slider_test/lib/python3.10/site-packages/rviz_slider_test-0.0.0-py3.10.egg-info
+running install_scripts
+Installing cube_animator script to /root/ros2_ws/install/rviz_slider_test/lib/rviz_slider_test
+writing list of installed files to '/root/ros2_ws/build/rviz_slider_test/install.log'

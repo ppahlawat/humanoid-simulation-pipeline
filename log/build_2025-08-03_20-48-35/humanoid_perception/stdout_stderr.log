@@ -1,0 +1,33 @@
+running develop
+Removing /root/ros2_ws/install/humanoid_perception/lib/python3.10/site-packages/humanoid-perception.egg-link (link to .)
+running egg_info
+writing ../../build/humanoid_perception/humanoid_perception.egg-info/PKG-INFO
+writing dependency_links to ../../build/humanoid_perception/humanoid_perception.egg-info/dependency_links.txt
+writing entry points to ../../build/humanoid_perception/humanoid_perception.egg-info/entry_points.txt
+writing requirements to ../../build/humanoid_perception/humanoid_perception.egg-info/requires.txt
+writing top-level names to ../../build/humanoid_perception/humanoid_perception.egg-info/top_level.txt
+reading manifest file '../../build/humanoid_perception/humanoid_perception.egg-info/SOURCES.txt'
+writing manifest file '../../build/humanoid_perception/humanoid_perception.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/ros2_ws/build/humanoid_perception/build
+creating /root/ros2_ws/build/humanoid_perception/build/lib
+creating /root/ros2_ws/build/humanoid_perception/build/lib/humanoid_perception
+copying humanoid_perception/__init__.py -> /root/ros2_ws/build/humanoid_perception/build/lib/humanoid_perception
+copying humanoid_perception/color_detector.py -> /root/ros2_ws/build/humanoid_perception/build/lib/humanoid_perception
+running install
+running install_lib
+creating /root/ros2_ws/install/humanoid_perception/lib/python3.10/site-packages/humanoid_perception
+copying /root/ros2_ws/build/humanoid_perception/build/lib/humanoid_perception/__init__.py -> /root/ros2_ws/install/humanoid_perception/lib/python3.10/site-packages/humanoid_perception
+copying /root/ros2_ws/build/humanoid_perception/build/lib/humanoid_perception/color_detector.py -> /root/ros2_ws/install/humanoid_perception/lib/python3.10/site-packages/humanoid_perception
+byte-compiling /root/ros2_ws/install/humanoid_perception/lib/python3.10/site-packages/humanoid_perception/__init__.py to __init__.cpython-310.pyc
+byte-compiling /root/ros2_ws/install/humanoid_perception/lib/python3.10/site-packages/humanoid_perception/color_detector.py to color_detector.cpython-310.pyc
+running install_data
+copying resource/humanoid_perception -> /root/ros2_ws/install/humanoid_perception/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros2_ws/install/humanoid_perception/share/humanoid_perception
+copying launch/perception.launch.py -> /root/ros2_ws/install/humanoid_perception/share/humanoid_perception/launch
+running install_egg_info
+Copying ../../build/humanoid_perception/humanoid_perception.egg-info to /root/ros2_ws/install/humanoid_perception/lib/python3.10/site-packages/humanoid_perception-0.0.0-py3.10.egg-info
+running install_scripts
+Installing color_detector script to /root/ros2_ws/install/humanoid_perception/lib/humanoid_perception
+writing list of installed files to '/root/ros2_ws/build/humanoid_perception/install.log'

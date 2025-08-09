@@ -1,0 +1,428 @@
+[0.123s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.123s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x76ad261cd8d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x76ad2634ecb0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x76ad2634ecb0>>)
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.233s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/ros2_ws'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/humanoid_description) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/humanoid_description) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/humanoid_description) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/humanoid_description) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/humanoid_description) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/humanoid_description) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/humanoid_description) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/humanoid_description) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/humanoid_description) by extension 'ros'
+[0.244s] DEBUG:colcon.colcon_core.package_identification:Package 'src/humanoid_description' with type 'ros.ament_cmake' and name 'humanoid_description'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/humanoid_perception) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/humanoid_perception) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/humanoid_perception) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/humanoid_perception) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/humanoid_perception) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/humanoid_perception) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/humanoid_perception) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/humanoid_perception) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/humanoid_perception) by extension 'ros'
+[0.245s] DEBUG:colcon.colcon_core.package_identification:Package 'src/humanoid_perception' with type 'ros.ament_python' and name 'humanoid_perception'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ign_ros2_control_demos) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ign_ros2_control_demos) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ign_ros2_control_demos) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ign_ros2_control_demos) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ign_ros2_control_demos) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ign_ros2_control_demos) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ign_ros2_control_demos) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ign_ros2_control_demos) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ign_ros2_control_demos) by extension 'ros'
+[0.245s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ign_ros2_control_demos' with type 'ros.ament_cmake' and name 'ign_ros2_control_demos'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ros'
+[0.246s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_py_pkg' with type 'ros.ament_python' and name 'my_py_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ros'
+[0.247s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_bringup' with type 'ros.ament_cmake' and name 'my_robot_bringup'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_sensor_package) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_sensor_package) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_sensor_package) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_sensor_package) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_sensor_package) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_sensor_package) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_sensor_package) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_sensor_package) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_sensor_package) by extension 'ros'
+[0.248s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_sensor_package' with type 'ros.ament_python' and name 'my_sensor_package'
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.263s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/ros2_ws/install/simple_control_test' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.263s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /root/ros2_ws/install
+[0.265s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 325 installed packages in /opt/ros/humble
+[0.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'humanoid_description' build argument 'cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'humanoid_description' build argument 'cmake_target' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'humanoid_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'humanoid_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'humanoid_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'humanoid_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'humanoid_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'humanoid_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'humanoid_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.301s] DEBUG:colcon.colcon_core.verb:Building package 'humanoid_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_ws/build/humanoid_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_ws/install/humanoid_description', 'merge_install': False, 'path': '/root/ros2_ws/src/humanoid_description', 'symlink_install': True, 'test_result_base': None}
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'humanoid_perception' build argument 'cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'humanoid_perception' build argument 'cmake_target' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'humanoid_perception' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'humanoid_perception' build argument 'cmake_clean_cache' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'humanoid_perception' build argument 'cmake_clean_first' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'humanoid_perception' build argument 'cmake_force_configure' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'humanoid_perception' build argument 'ament_cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'humanoid_perception' build argument 'catkin_cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'humanoid_perception' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.302s] DEBUG:colcon.colcon_core.verb:Building package 'humanoid_perception' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_ws/build/humanoid_perception', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_ws/install/humanoid_perception', 'merge_install': False, 'path': '/root/ros2_ws/src/humanoid_perception', 'symlink_install': True, 'test_result_base': None}
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control_demos' build argument 'cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control_demos' build argument 'cmake_target' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control_demos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control_demos' build argument 'cmake_clean_cache' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control_demos' build argument 'cmake_clean_first' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control_demos' build argument 'cmake_force_configure' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control_demos' build argument 'ament_cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control_demos' build argument 'catkin_cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'ign_ros2_control_demos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.302s] DEBUG:colcon.colcon_core.verb:Building package 'ign_ros2_control_demos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_ws/build/ign_ros2_control_demos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_ws/install/ign_ros2_control_demos', 'merge_install': False, 'path': '/root/ros2_ws/src/ign_ros2_control_demos', 'symlink_install': True, 'test_result_base': None}
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_target' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.302s] DEBUG:colcon.colcon_core.verb:Building package 'my_py_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_ws/build/my_py_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_ws/install/my_py_pkg', 'merge_install': False, 'path': '/root/ros2_ws/src/my_py_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'my_sensor_package' build argument 'cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'my_sensor_package' build argument 'cmake_target' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'my_sensor_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'my_sensor_package' build argument 'cmake_clean_cache' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'my_sensor_package' build argument 'cmake_clean_first' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'my_sensor_package' build argument 'cmake_force_configure' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'my_sensor_package' build argument 'ament_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'my_sensor_package' build argument 'catkin_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'my_sensor_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.303s] DEBUG:colcon.colcon_core.verb:Building package 'my_sensor_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_ws/build/my_sensor_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_ws/install/my_sensor_package', 'merge_install': False, 'path': '/root/ros2_ws/src/my_sensor_package', 'symlink_install': True, 'test_result_base': None}
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.303s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_ws/build/my_robot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_ws/install/my_robot_bringup', 'merge_install': False, 'path': '/root/ros2_ws/src/my_robot_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.303s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.304s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.304s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/ros2_ws/src/my_sensor_package' with build type 'ament_python'
+[0.304s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_sensor_package', 'ament_prefix_path')
+[0.307s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.307s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/my_sensor_package/share/my_sensor_package/hook/ament_prefix_path.ps1'
+[0.307s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_ws/install/my_sensor_package/share/my_sensor_package/hook/ament_prefix_path.dsv'
+[0.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/my_sensor_package/share/my_sensor_package/hook/ament_prefix_path.sh'
+[0.308s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.308s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.311s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_ws/src/humanoid_description' with build type 'ament_cmake'
+[0.312s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_ws/src/humanoid_description'
+[0.312s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.312s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.316s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/ros2_ws/src/humanoid_perception' with build type 'ament_python'
+[0.316s] Level 1:colcon.colcon_core.shell:create_environment_hook('humanoid_perception', 'ament_prefix_path')
+[0.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/humanoid_perception/share/humanoid_perception/hook/ament_prefix_path.ps1'
+[0.316s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_ws/install/humanoid_perception/share/humanoid_perception/hook/ament_prefix_path.dsv'
+[0.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/humanoid_perception/share/humanoid_perception/hook/ament_prefix_path.sh'
+[0.317s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.317s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.320s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_ws/src/ign_ros2_control_demos' with build type 'ament_cmake'
+[0.320s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_ws/src/ign_ros2_control_demos'
+[0.320s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.320s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.323s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/ros2_ws/src/my_py_pkg' with build type 'ament_python'
+[0.323s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_py_pkg', 'ament_prefix_path')
+[0.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.ps1'
+[0.324s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.dsv'
+[0.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.sh'
+[0.325s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.325s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.501s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/ros2_ws/src/my_sensor_package'
+[0.501s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.501s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_ws/build/humanoid_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/simple_control_test:/root/ros2_ws/install/my_sensor_package:/root/ros2_ws/install/my_py_pkg:/root/ros2_ws/install/humanoid_perception:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/humanoid_description -- -j16 -l16
+[0.682s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/ros2_ws/src/humanoid_perception'
+[0.682s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.682s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.689s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_ws/build/ign_ros2_control_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/simple_control_test:/root/ros2_ws/install/my_sensor_package:/root/ros2_ws/install/my_py_pkg:/root/ros2_ws/install/humanoid_perception:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/ign_ros2_control_demos -- -j16 -l16
+[0.690s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_ws/build/humanoid_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/simple_control_test:/root/ros2_ws/install/my_sensor_package:/root/ros2_ws/install/my_py_pkg:/root/ros2_ws/install/humanoid_perception:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/humanoid_description -- -j16 -l16
+[0.699s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_ws/build/humanoid_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/simple_control_test:/root/ros2_ws/install/my_sensor_package:/root/ros2_ws/install/my_py_pkg:/root/ros2_ws/install/humanoid_perception:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/humanoid_description
+[0.876s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/ros2_ws/src/my_py_pkg'
+[0.876s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.876s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.885s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(humanoid_description)
+[0.885s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_ws/build/humanoid_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/simple_control_test:/root/ros2_ws/install/my_sensor_package:/root/ros2_ws/install/my_py_pkg:/root/ros2_ws/install/humanoid_perception:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/humanoid_description
+[0.887s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/humanoid_description' for CMake module files
+[0.888s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/humanoid_description' for CMake config files
+[0.888s] Level 1:colcon.colcon_core.shell:create_environment_hook('humanoid_description', 'cmake_prefix_path')
+[0.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/humanoid_description/share/humanoid_description/hook/cmake_prefix_path.ps1'
+[0.889s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_ws/install/humanoid_description/share/humanoid_description/hook/cmake_prefix_path.dsv'
+[0.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/humanoid_description/share/humanoid_description/hook/cmake_prefix_path.sh'
+[0.889s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/humanoid_description/bin'
+[0.889s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/humanoid_description/lib/pkgconfig/humanoid_description.pc'
+[0.889s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/humanoid_description/lib/python3.10/site-packages'
+[0.890s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/humanoid_description/bin'
+[0.890s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/humanoid_description/share/humanoid_description/package.ps1'
+[0.890s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_ws/install/humanoid_description/share/humanoid_description/package.dsv'
+[0.891s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/humanoid_description/share/humanoid_description/package.sh'
+[0.891s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/humanoid_description/share/humanoid_description/package.bash'
+[0.892s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/humanoid_description/share/humanoid_description/package.zsh'
+[0.892s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_ws/install/humanoid_description/share/colcon-core/packages/humanoid_description)
+[0.893s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(humanoid_description)
+[0.893s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/humanoid_description' for CMake module files
+[0.893s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/humanoid_description' for CMake config files
+[0.894s] Level 1:colcon.colcon_core.shell:create_environment_hook('humanoid_description', 'cmake_prefix_path')
+[0.894s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/humanoid_description/share/humanoid_description/hook/cmake_prefix_path.ps1'
+[0.894s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_ws/install/humanoid_description/share/humanoid_description/hook/cmake_prefix_path.dsv'
+[0.894s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/humanoid_description/share/humanoid_description/hook/cmake_prefix_path.sh'
+[0.895s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/humanoid_description/bin'
+[0.895s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/humanoid_description/lib/pkgconfig/humanoid_description.pc'
+[0.895s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/humanoid_description/lib/python3.10/site-packages'
+[0.895s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/humanoid_description/bin'
+[0.895s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/humanoid_description/share/humanoid_description/package.ps1'
+[0.896s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_ws/install/humanoid_description/share/humanoid_description/package.dsv'
+[0.896s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/humanoid_description/share/humanoid_description/package.sh'
+[0.896s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/humanoid_description/share/humanoid_description/package.bash'
+[0.896s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/humanoid_description/share/humanoid_description/package.zsh'
+[0.897s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_ws/install/humanoid_description/share/colcon-core/packages/humanoid_description)
+[0.898s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_ws/build/ign_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/simple_control_test:/root/ros2_ws/install/my_sensor_package:/root/ros2_ws/install/my_py_pkg:/root/ros2_ws/install/humanoid_perception:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/ign_ros2_control_demos -- -j16 -l16
+[0.899s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_ws/build/ign_ros2_control_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/simple_control_test:/root/ros2_ws/install/my_sensor_package:/root/ros2_ws/install/my_py_pkg:/root/ros2_ws/install/humanoid_perception:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/ign_ros2_control_demos
+[0.931s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ign_ros2_control_demos)
+[0.932s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/ign_ros2_control_demos' for CMake module files
+[0.932s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_ws/build/ign_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/simple_control_test:/root/ros2_ws/install/my_sensor_package:/root/ros2_ws/install/my_py_pkg:/root/ros2_ws/install/humanoid_perception:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/ign_ros2_control_demos
+[0.933s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/ign_ros2_control_demos' for CMake config files
+[0.933s] Level 1:colcon.colcon_core.shell:create_environment_hook('ign_ros2_control_demos', 'cmake_prefix_path')
+[0.933s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/hook/cmake_prefix_path.ps1'
+[0.933s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/hook/cmake_prefix_path.dsv'
+[0.934s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/hook/cmake_prefix_path.sh'
+[0.934s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/ign_ros2_control_demos/bin'
+[0.934s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/ign_ros2_control_demos/lib/pkgconfig/ign_ros2_control_demos.pc'
+[0.934s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/ign_ros2_control_demos/lib/python3.10/site-packages'
+[0.934s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/ign_ros2_control_demos/bin'
+[0.935s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.ps1'
+[0.935s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.dsv'
+[0.935s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.sh'
+[0.936s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.bash'
+[0.936s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.zsh'
+[0.936s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_ws/install/ign_ros2_control_demos/share/colcon-core/packages/ign_ros2_control_demos)
+[0.937s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ign_ros2_control_demos)
+[0.937s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/ign_ros2_control_demos' for CMake module files
+[0.937s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/ign_ros2_control_demos' for CMake config files
+[0.938s] Level 1:colcon.colcon_core.shell:create_environment_hook('ign_ros2_control_demos', 'cmake_prefix_path')
+[0.938s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/hook/cmake_prefix_path.ps1'
+[0.938s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/hook/cmake_prefix_path.dsv'
+[0.938s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/hook/cmake_prefix_path.sh'
+[0.939s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/ign_ros2_control_demos/bin'
+[0.939s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/ign_ros2_control_demos/lib/pkgconfig/ign_ros2_control_demos.pc'
+[0.939s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/ign_ros2_control_demos/lib/python3.10/site-packages'
+[0.939s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/ign_ros2_control_demos/bin'
+[0.939s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.ps1'
+[0.939s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.dsv'
+[0.940s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.sh'
+[0.940s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.bash'
+[0.940s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.zsh'
+[0.941s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_ws/install/ign_ros2_control_demos/share/colcon-core/packages/ign_ros2_control_demos)
+[1.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_ws/build/humanoid_perception': PYTHONPATH=/root/ros2_ws/build/humanoid_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/humanoid_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/humanoid_perception/build --no-deps symlink_data
+[1.159s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_ws/build/my_sensor_package': PYTHONPATH=/root/ros2_ws/build/my_sensor_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/my_sensor_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/my_sensor_package/build --no-deps symlink_data
+[1.170s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_ws/build/my_py_pkg': PYTHONPATH=/root/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/my_py_pkg/build --no-deps symlink_data
+[1.471s] Level 1:colcon.colcon_core.shell:create_environment_hook('humanoid_perception', 'pythonpath_develop')
+[1.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/build/humanoid_perception/share/humanoid_perception/hook/pythonpath_develop.ps1'
+[1.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_ws/build/humanoid_perception' returned '0': PYTHONPATH=/root/ros2_ws/build/humanoid_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/humanoid_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/humanoid_perception/build --no-deps symlink_data
+[1.472s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_ws/build/humanoid_perception/share/humanoid_perception/hook/pythonpath_develop.dsv'
+[1.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/build/humanoid_perception/share/humanoid_perception/hook/pythonpath_develop.sh'
+[1.473s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/humanoid_perception' for CMake module files
+[1.473s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/humanoid_perception' for CMake config files
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/humanoid_perception/lib'
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/humanoid_perception/bin'
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/humanoid_perception/lib/pkgconfig/humanoid_perception.pc'
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/humanoid_perception/lib/python3.10/site-packages'
+[1.474s] Level 1:colcon.colcon_core.shell:create_environment_hook('humanoid_perception', 'pythonpath')
+[1.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/humanoid_perception/share/humanoid_perception/hook/pythonpath.ps1'
+[1.475s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_ws/install/humanoid_perception/share/humanoid_perception/hook/pythonpath.dsv'
+[1.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/humanoid_perception/share/humanoid_perception/hook/pythonpath.sh'
+[1.475s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/humanoid_perception/bin'
+[1.475s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(humanoid_perception)
+[1.476s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/humanoid_perception/share/humanoid_perception/package.ps1'
+[1.476s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_ws/install/humanoid_perception/share/humanoid_perception/package.dsv'
+[1.476s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/humanoid_perception/share/humanoid_perception/package.sh'
+[1.477s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/humanoid_perception/share/humanoid_perception/package.bash'
+[1.477s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/humanoid_perception/share/humanoid_perception/package.zsh'
+[1.477s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_ws/install/humanoid_perception/share/colcon-core/packages/humanoid_perception)
+[1.486s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_sensor_package', 'pythonpath_develop')
+[1.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/build/my_sensor_package/share/my_sensor_package/hook/pythonpath_develop.ps1'
+[1.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_ws/build/my_sensor_package' returned '0': PYTHONPATH=/root/ros2_ws/build/my_sensor_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/my_sensor_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/my_sensor_package/build --no-deps symlink_data
+[1.487s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_ws/build/my_sensor_package/share/my_sensor_package/hook/pythonpath_develop.dsv'
+[1.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/build/my_sensor_package/share/my_sensor_package/hook/pythonpath_develop.sh'
+[1.488s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/my_sensor_package' for CMake module files
+[1.488s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/my_sensor_package' for CMake config files
+[1.489s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/my_sensor_package/lib'
+[1.489s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/my_sensor_package/bin'
+[1.489s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/my_sensor_package/lib/pkgconfig/my_sensor_package.pc'
+[1.489s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/my_sensor_package/lib/python3.10/site-packages'
+[1.489s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_sensor_package', 'pythonpath')
+[1.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/my_sensor_package/share/my_sensor_package/hook/pythonpath.ps1'
+[1.489s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_ws/install/my_sensor_package/share/my_sensor_package/hook/pythonpath.dsv'
+[1.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/my_sensor_package/share/my_sensor_package/hook/pythonpath.sh'
+[1.490s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/my_sensor_package/bin'
+[1.490s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_sensor_package)
+[1.490s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/my_sensor_package/share/my_sensor_package/package.ps1'
+[1.491s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_ws/install/my_sensor_package/share/my_sensor_package/package.dsv'
+[1.491s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/my_sensor_package/share/my_sensor_package/package.sh'
+[1.491s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/my_sensor_package/share/my_sensor_package/package.bash'
+[1.492s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/my_sensor_package/share/my_sensor_package/package.zsh'
+[1.492s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_ws/install/my_sensor_package/share/colcon-core/packages/my_sensor_package)
+[1.492s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ros2_ws/src/my_robot_bringup' with build type 'ament_cmake'
+[1.492s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ros2_ws/src/my_robot_bringup'
+[1.493s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.493s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.497s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_py_pkg', 'pythonpath_develop')
+[1.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/build/my_py_pkg/share/my_py_pkg/hook/pythonpath_develop.ps1'
+[1.498s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/root/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/my_py_pkg/build --no-deps symlink_data
+[1.498s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_ws/build/my_py_pkg/share/my_py_pkg/hook/pythonpath_develop.dsv'
+[1.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/build/my_py_pkg/share/my_py_pkg/hook/pythonpath_develop.sh'
+[1.499s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/my_py_pkg' for CMake module files
+[1.499s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/my_py_pkg' for CMake config files
+[1.499s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/my_py_pkg/lib'
+[1.500s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/my_py_pkg/bin'
+[1.500s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/my_py_pkg/lib/pkgconfig/my_py_pkg.pc'
+[1.500s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages'
+[1.500s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_py_pkg', 'pythonpath')
+[1.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.ps1'
+[1.500s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.dsv'
+[1.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.sh'
+[1.501s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/my_py_pkg/bin'
+[1.501s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_py_pkg)
+[1.501s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.ps1'
+[1.501s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.dsv'
+[1.502s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.sh'
+[1.502s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.bash'
+[1.503s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.zsh'
+[1.503s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_ws/install/my_py_pkg/share/colcon-core/packages/my_py_pkg)
+[1.582s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_ws/build/my_robot_bringup': AMENT_PREFIX_PATH=/root/ros2_ws/install/my_sensor_package:/root/ros2_ws/install/ign_ros2_control_demos:/root/ros2_ws/install/ros2_control_demos:/root/ros2_ws/install/simple_control_test:/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/my_py_pkg:/root/ros2_ws/install/humanoid_perception:/root/ros2_ws/install/humanoid_description:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/simple_control_test:/root/ros2_ws/install/my_sensor_package:/root/ros2_ws/install/my_py_pkg:/root/ros2_ws/install/humanoid_perception:/opt/ros/humble PYTHONPATH=/root/ros2_ws/build/my_sensor_package:/root/ros2_ws/install/my_sensor_package/lib/python3.10/site-packages:/root/ros2_ws/build/simple_control_test:/root/ros2_ws/install/simple_control_test/lib/python3.10/site-packages:/root/ros2_ws/build/my_py_pkg:/root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/root/ros2_ws/build/humanoid_perception:/root/ros2_ws/install/humanoid_perception/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /root/ros2_ws/build/my_robot_bringup -- -j16 -l16
+[1.619s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_ws/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/my_sensor_package:/root/ros2_ws/install/ign_ros2_control_demos:/root/ros2_ws/install/ros2_control_demos:/root/ros2_ws/install/simple_control_test:/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/my_py_pkg:/root/ros2_ws/install/humanoid_perception:/root/ros2_ws/install/humanoid_description:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/simple_control_test:/root/ros2_ws/install/my_sensor_package:/root/ros2_ws/install/my_py_pkg:/root/ros2_ws/install/humanoid_perception:/opt/ros/humble PYTHONPATH=/root/ros2_ws/build/my_sensor_package:/root/ros2_ws/install/my_sensor_package/lib/python3.10/site-packages:/root/ros2_ws/build/simple_control_test:/root/ros2_ws/install/simple_control_test/lib/python3.10/site-packages:/root/ros2_ws/build/my_py_pkg:/root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/root/ros2_ws/build/humanoid_perception:/root/ros2_ws/install/humanoid_perception/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /root/ros2_ws/build/my_robot_bringup -- -j16 -l16
+[1.621s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_ws/build/my_robot_bringup': AMENT_PREFIX_PATH=/root/ros2_ws/install/my_sensor_package:/root/ros2_ws/install/ign_ros2_control_demos:/root/ros2_ws/install/ros2_control_demos:/root/ros2_ws/install/simple_control_test:/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/my_py_pkg:/root/ros2_ws/install/humanoid_perception:/root/ros2_ws/install/humanoid_description:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/simple_control_test:/root/ros2_ws/install/my_sensor_package:/root/ros2_ws/install/my_py_pkg:/root/ros2_ws/install/humanoid_perception:/opt/ros/humble PYTHONPATH=/root/ros2_ws/build/my_sensor_package:/root/ros2_ws/install/my_sensor_package/lib/python3.10/site-packages:/root/ros2_ws/build/simple_control_test:/root/ros2_ws/install/simple_control_test/lib/python3.10/site-packages:/root/ros2_ws/build/my_py_pkg:/root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/root/ros2_ws/build/humanoid_perception:/root/ros2_ws/install/humanoid_perception/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /root/ros2_ws/build/my_robot_bringup
+[1.642s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_bringup)
+[1.642s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/my_robot_bringup' for CMake module files
+[1.642s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_ws/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/my_sensor_package:/root/ros2_ws/install/ign_ros2_control_demos:/root/ros2_ws/install/ros2_control_demos:/root/ros2_ws/install/simple_control_test:/root/ros2_ws/install/my_robot_bringup:/root/ros2_ws/install/my_py_pkg:/root/ros2_ws/install/humanoid_perception:/root/ros2_ws/install/humanoid_description:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/simple_control_test:/root/ros2_ws/install/my_sensor_package:/root/ros2_ws/install/my_py_pkg:/root/ros2_ws/install/humanoid_perception:/opt/ros/humble PYTHONPATH=/root/ros2_ws/build/my_sensor_package:/root/ros2_ws/install/my_sensor_package/lib/python3.10/site-packages:/root/ros2_ws/build/simple_control_test:/root/ros2_ws/install/simple_control_test/lib/python3.10/site-packages:/root/ros2_ws/build/my_py_pkg:/root/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/root/ros2_ws/build/humanoid_perception:/root/ros2_ws/install/humanoid_perception/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /root/ros2_ws/build/my_robot_bringup
+[1.643s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/my_robot_bringup' for CMake config files
+[1.643s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_bringup', 'cmake_prefix_path')
+[1.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.ps1'
+[1.643s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.dsv'
+[1.644s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.sh'
+[1.644s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/my_robot_bringup/bin'
+[1.644s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/my_robot_bringup/lib/pkgconfig/my_robot_bringup.pc'
+[1.644s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/my_robot_bringup/lib/python3.10/site-packages'
+[1.644s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/my_robot_bringup/bin'
+[1.645s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.ps1'
+[1.645s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.dsv'
+[1.645s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.sh'
+[1.645s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.bash'
+[1.646s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.zsh'
+[1.646s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_ws/install/my_robot_bringup/share/colcon-core/packages/my_robot_bringup)
+[1.646s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_bringup)
+[1.646s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/my_robot_bringup' for CMake module files
+[1.647s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/my_robot_bringup' for CMake config files
+[1.647s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_bringup', 'cmake_prefix_path')
+[1.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.ps1'
+[1.647s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.dsv'
+[1.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.sh'
+[1.648s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/my_robot_bringup/bin'
+[1.648s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/my_robot_bringup/lib/pkgconfig/my_robot_bringup.pc'
+[1.648s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/my_robot_bringup/lib/python3.10/site-packages'
+[1.648s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/install/my_robot_bringup/bin'
+[1.648s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.ps1'
+[1.649s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.dsv'
+[1.649s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.sh'
+[1.649s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.bash'
+[1.650s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.zsh'
+[1.650s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_ws/install/my_robot_bringup/share/colcon-core/packages/my_robot_bringup)
+[1.650s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.650s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.651s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.651s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.679s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.679s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.679s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.680s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.680s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/0/bus: No such file or directory
+[1.680s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.680s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_ws/install/local_setup.ps1'
+[1.681s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros2_ws/install/_local_setup_util_ps1.py'
+[1.682s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_ws/install/setup.ps1'
+[1.683s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_ws/install/local_setup.sh'
+[1.683s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros2_ws/install/_local_setup_util_sh.py'
+[1.684s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_ws/install/setup.sh'
+[1.684s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_ws/install/local_setup.bash'
+[1.685s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_ws/install/setup.bash'
+[1.686s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_ws/install/local_setup.zsh'
+[1.686s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_ws/install/setup.zsh'

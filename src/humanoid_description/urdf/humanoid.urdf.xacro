@@ -1,7 +1,14 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="humanoid">
 
-    <xacro:property name="torso_color" value="0.2 0.5 1.0 1.0"/> <xacro:property name="head_color" value="1.0 0.2 0.2 1.0"/> <xacro:property name="eye_color" value="0 0 0 1.0"/>      <xacro:property name="camera_color" value="0.1 0.1 0.1 1.0"/> <link name="torso_link">
+    <!-- Color Properties -->
+    <xacro:property name="torso_color" value="0.2 0.5 1.0 1.0"/>
+    <xacro:property name="head_color" value="1.0 0.2 0.2 1.0"/>
+    <xacro:property name="eye_color" value="0 0 0 1.0"/>
+    <xacro:property name="camera_color" value="0.1 0.1 0.1 1.0"/>
+
+    <!-- Main Body Links and Joints -->
+    <link name="torso_link">
         <visual>
             <geometry><box size="0.4 0.3 0.6"/></geometry>
             <material name="blue"><color rgba="${torso_color}"/></material>
@@ -12,6 +19,10 @@
             <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
         </inertial>
     </link>
+    <!-- Gazebo color tag for the torso -->
+    <gazebo reference="torso_link">
+        <material>Gazebo/Blue</material>
+    </gazebo>
 
     <link name="head_link">
         <visual>
@@ -24,6 +35,10 @@
             <inertia ixx="0.1" ixy="0.0" ixz="0.0" iyy="0.1" iyz="0.0" izz="0.1"/>
         </inertial>
     </link>
+    <!-- Gazebo color tag for the head -->
+    <gazebo reference="head_link">
+        <material>Gazebo/Red</material>
+    </gazebo>
 
     <joint name="neck_joint" type="revolute">
         <parent link="torso_link"/>
@@ -36,9 +51,19 @@
     <link name="left_eye_link">
         <visual><geometry><sphere radius="0.02"/></geometry><material name="black"><color rgba="${eye_color}"/></material></visual>
     </link>
+    <!-- Gazebo color tag for the left eye -->
+    <gazebo reference="left_eye_link">
+        <material>Gazebo/Black</material>
+    </gazebo>
+
     <link name="right_eye_link">
         <visual><geometry><sphere radius="0.02"/></geometry><material name="black"><color rgba="${eye_color}"/></material></visual>
     </link>
+    <!-- Gazebo color tag for the right eye -->
+    <gazebo reference="right_eye_link">
+        <material>Gazebo/Black</material>
+    </gazebo>
+
     <joint name="left_eye_joint" type="fixed">
         <parent link="head_link"/><child link="left_eye_link"/><origin xyz="0.14 0.05 0.05" rpy="0 0 0"/>
     </joint>
@@ -54,6 +79,10 @@
       <collision><geometry><box size="0.05 0.05 0.05"/></geometry></collision>
       <inertial><mass value="0.01"/><inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6" /></inertial>
     </link>
+    <!-- Gazebo color tag for the camera -->
+    <gazebo reference="camera_link">
+        <material>Gazebo/DarkGrey</material>
+    </gazebo>
 
     <joint name="camera_joint" type="fixed">
       <parent link="head_link"/>
@@ -61,7 +90,7 @@
       <origin xyz="0.12 0 0" rpy="0 0 0"/>
     </joint>
 
-
+    <!-- Sensor Plugins -->
     <gazebo reference="torso_link">
         <sensor name="imu_sensor" type="imu">
             <plugin name="gazebo_ros_imu_sensor" filename="libgazebo_ros_imu_sensor.so">

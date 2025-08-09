@@ -1,0 +1,40 @@
+[0.579s] Invoking command in '/root/ros2_ws/src/rviz_slider_test': PYTHONPATH=/root/ros2_ws/build/rviz_slider_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/rviz_slider_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rviz_slider_test build --build-base /root/ros2_ws/build/rviz_slider_test/build install --record /root/ros2_ws/build/rviz_slider_test/install.log --single-version-externally-managed install_data
+[0.750s] running egg_info
+[0.750s] creating ../../build/rviz_slider_test/rviz_slider_test.egg-info
+[0.751s] writing ../../build/rviz_slider_test/rviz_slider_test.egg-info/PKG-INFO
+[0.751s] writing dependency_links to ../../build/rviz_slider_test/rviz_slider_test.egg-info/dependency_links.txt
+[0.752s] writing entry points to ../../build/rviz_slider_test/rviz_slider_test.egg-info/entry_points.txt
+[0.752s] writing requirements to ../../build/rviz_slider_test/rviz_slider_test.egg-info/requires.txt
+[0.752s] writing top-level names to ../../build/rviz_slider_test/rviz_slider_test.egg-info/top_level.txt
+[0.752s] writing manifest file '../../build/rviz_slider_test/rviz_slider_test.egg-info/SOURCES.txt'
+[0.753s] reading manifest file '../../build/rviz_slider_test/rviz_slider_test.egg-info/SOURCES.txt'
+[0.753s] writing manifest file '../../build/rviz_slider_test/rviz_slider_test.egg-info/SOURCES.txt'
+[0.754s] running build
+[0.754s] running build_py
+[0.754s] creating /root/ros2_ws/build/rviz_slider_test/build
+[0.754s] creating /root/ros2_ws/build/rviz_slider_test/build/lib
+[0.754s] creating /root/ros2_ws/build/rviz_slider_test/build/lib/rviz_slider_test
+[0.755s] copying rviz_slider_test/__init__.py -> /root/ros2_ws/build/rviz_slider_test/build/lib/rviz_slider_test
+[0.755s] copying rviz_slider_test/cube_animator.py -> /root/ros2_ws/build/rviz_slider_test/build/lib/rviz_slider_test
+[0.755s] running install
+[0.756s] running install_lib
+[0.756s] creating /root/ros2_ws/install/rviz_slider_test/lib/python3.10/site-packages/rviz_slider_test
+[0.757s] copying /root/ros2_ws/build/rviz_slider_test/build/lib/rviz_slider_test/__init__.py -> /root/ros2_ws/install/rviz_slider_test/lib/python3.10/site-packages/rviz_slider_test
+[0.757s] copying /root/ros2_ws/build/rviz_slider_test/build/lib/rviz_slider_test/cube_animator.py -> /root/ros2_ws/install/rviz_slider_test/lib/python3.10/site-packages/rviz_slider_test
+[0.757s] byte-compiling /root/ros2_ws/install/rviz_slider_test/lib/python3.10/site-packages/rviz_slider_test/__init__.py to __init__.cpython-310.pyc
+[0.758s] byte-compiling /root/ros2_ws/install/rviz_slider_test/lib/python3.10/site-packages/rviz_slider_test/cube_animator.py to cube_animator.cpython-310.pyc
+[0.758s] running install_data
+[0.758s] creating /root/ros2_ws/install/rviz_slider_test/share/ament_index
+[0.758s] creating /root/ros2_ws/install/rviz_slider_test/share/ament_index/resource_index
+[0.759s] creating /root/ros2_ws/install/rviz_slider_test/share/ament_index/resource_index/packages
+[0.759s] copying resource/rviz_slider_test -> /root/ros2_ws/install/rviz_slider_test/share/ament_index/resource_index/packages
+[0.760s] copying package.xml -> /root/ros2_ws/install/rviz_slider_test/share/rviz_slider_test
+[0.760s] creating /root/ros2_ws/install/rviz_slider_test/share/rviz_slider_test/urdf
+[0.760s] copying urdf/animated_cube.urdf.xacro -> /root/ros2_ws/install/rviz_slider_test/share/rviz_slider_test/urdf
+[0.761s] creating /root/ros2_ws/install/rviz_slider_test/share/rviz_slider_test/launch
+[0.761s] running install_egg_info
+[0.762s] Copying ../../build/rviz_slider_test/rviz_slider_test.egg-info to /root/ros2_ws/install/rviz_slider_test/lib/python3.10/site-packages/rviz_slider_test-0.0.0-py3.10.egg-info
+[0.763s] running install_scripts
+[0.778s] Installing cube_animator script to /root/ros2_ws/install/rviz_slider_test/lib/rviz_slider_test
+[0.779s] writing list of installed files to '/root/ros2_ws/build/rviz_slider_test/install.log'
+[0.798s] Invoked command in '/root/ros2_ws/src/rviz_slider_test' returned '0': PYTHONPATH=/root/ros2_ws/build/rviz_slider_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/rviz_slider_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rviz_slider_test build --build-base /root/ros2_ws/build/rviz_slider_test/build install --record /root/ros2_ws/build/rviz_slider_test/install.log --single-version-externally-managed install_data

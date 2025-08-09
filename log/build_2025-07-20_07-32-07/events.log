@@ -1,6 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000690] (-) JobUnselected: {'identifier': 'humanoid_description'}
-[0.000737] (-) JobUnselected: {'identifier': 'my_py_pkg'}
-[0.000757] (-) JobUnselected: {'identifier': 'my_robot_bringup'}
-[0.000772] (-) JobUnselected: {'identifier': 'my_sensor_package'}
-[0.000790] (-) EventReactorShutdown: {}

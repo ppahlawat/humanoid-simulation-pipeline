@@ -1,0 +1,21 @@
+[1.506s] Invoking command in '/root/ros2_ws/src/rviz_slider_test': PYTHONPATH=/root/ros2_ws/build/rviz_slider_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/rviz_slider_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rviz_slider_test build --build-base /root/ros2_ws/build/rviz_slider_test/build install --record /root/ros2_ws/build/rviz_slider_test/install.log --single-version-externally-managed install_data
+[1.776s] running egg_info
+[1.778s] writing ../../build/rviz_slider_test/rviz_slider_test.egg-info/PKG-INFO
+[1.778s] writing dependency_links to ../../build/rviz_slider_test/rviz_slider_test.egg-info/dependency_links.txt
+[1.778s] writing entry points to ../../build/rviz_slider_test/rviz_slider_test.egg-info/entry_points.txt
+[1.778s] writing requirements to ../../build/rviz_slider_test/rviz_slider_test.egg-info/requires.txt
+[1.778s] writing top-level names to ../../build/rviz_slider_test/rviz_slider_test.egg-info/top_level.txt
+[1.782s] reading manifest file '../../build/rviz_slider_test/rviz_slider_test.egg-info/SOURCES.txt'
+[1.784s] writing manifest file '../../build/rviz_slider_test/rviz_slider_test.egg-info/SOURCES.txt'
+[1.784s] running build
+[1.784s] running build_py
+[1.785s] running install
+[1.785s] running install_lib
+[1.787s] running install_data
+[1.788s] running install_egg_info
+[1.790s] removing '/root/ros2_ws/install/rviz_slider_test/lib/python3.10/site-packages/rviz_slider_test-0.0.0-py3.10.egg-info' (and everything under it)
+[1.791s] Copying ../../build/rviz_slider_test/rviz_slider_test.egg-info to /root/ros2_ws/install/rviz_slider_test/lib/python3.10/site-packages/rviz_slider_test-0.0.0-py3.10.egg-info
+[1.793s] running install_scripts
+[1.816s] Installing cube_animator script to /root/ros2_ws/install/rviz_slider_test/lib/rviz_slider_test
+[1.816s] writing list of installed files to '/root/ros2_ws/build/rviz_slider_test/install.log'
+[1.856s] Invoked command in '/root/ros2_ws/src/rviz_slider_test' returned '0': PYTHONPATH=/root/ros2_ws/build/rviz_slider_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/rviz_slider_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rviz_slider_test build --build-base /root/ros2_ws/build/rviz_slider_test/build install --record /root/ros2_ws/build/rviz_slider_test/install.log --single-version-externally-managed install_data

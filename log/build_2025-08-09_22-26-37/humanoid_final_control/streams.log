@@ -1,0 +1,21 @@
+[1.452s] Invoking command in '/root/ros2_ws/src/humanoid_final_control': PYTHONPATH=/root/ros2_ws/build/humanoid_final_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/humanoid_final_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/humanoid_final_control build --build-base /root/ros2_ws/build/humanoid_final_control/build install --record /root/ros2_ws/build/humanoid_final_control/install.log --single-version-externally-managed install_data
+[1.640s] running egg_info
+[1.641s] writing ../../build/humanoid_final_control/humanoid_final_control.egg-info/PKG-INFO
+[1.642s] writing dependency_links to ../../build/humanoid_final_control/humanoid_final_control.egg-info/dependency_links.txt
+[1.642s] writing entry points to ../../build/humanoid_final_control/humanoid_final_control.egg-info/entry_points.txt
+[1.642s] writing requirements to ../../build/humanoid_final_control/humanoid_final_control.egg-info/requires.txt
+[1.642s] writing top-level names to ../../build/humanoid_final_control/humanoid_final_control.egg-info/top_level.txt
+[1.644s] reading manifest file '../../build/humanoid_final_control/humanoid_final_control.egg-info/SOURCES.txt'
+[1.645s] writing manifest file '../../build/humanoid_final_control/humanoid_final_control.egg-info/SOURCES.txt'
+[1.645s] running build
+[1.646s] running build_py
+[1.646s] running install
+[1.646s] running install_lib
+[1.647s] running install_data
+[1.647s] running install_egg_info
+[1.649s] removing '/root/ros2_ws/install/humanoid_final_control/lib/python3.10/site-packages/humanoid_final_control-0.0.0-py3.10.egg-info' (and everything under it)
+[1.649s] Copying ../../build/humanoid_final_control/humanoid_final_control.egg-info to /root/ros2_ws/install/humanoid_final_control/lib/python3.10/site-packages/humanoid_final_control-0.0.0-py3.10.egg-info
+[1.651s] running install_scripts
+[1.670s] Installing rviz_motion_controller script to /root/ros2_ws/install/humanoid_final_control/lib/humanoid_final_control
+[1.670s] writing list of installed files to '/root/ros2_ws/build/humanoid_final_control/install.log'
+[1.713s] Invoked command in '/root/ros2_ws/src/humanoid_final_control' returned '0': PYTHONPATH=/root/ros2_ws/build/humanoid_final_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/humanoid_final_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/humanoid_final_control build --build-base /root/ros2_ws/build/humanoid_final_control/build install --record /root/ros2_ws/build/humanoid_final_control/install.log --single-version-externally-managed install_data

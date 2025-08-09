@@ -4,6 +4,3 @@ source;share/humanoid_perception/hook/pythonpath.sh
 source;share/humanoid_perception/hook/ament_prefix_path.ps1
 source;share/humanoid_perception/hook/ament_prefix_path.dsv
 source;share/humanoid_perception/hook/ament_prefix_path.sh
-source;../../build/humanoid_perception/share/humanoid_perception/hook/pythonpath_develop.ps1
-source;../../build/humanoid_perception/share/humanoid_perception/hook/pythonpath_develop.dsv
-source;../../build/humanoid_perception/share/humanoid_perception/hook/pythonpath_develop.sh

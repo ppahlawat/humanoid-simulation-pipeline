@@ -1,0 +1,21 @@
+[1.272s] Invoking command in '/root/ros2_ws/src/humanoid_perception': PYTHONPATH=/root/ros2_ws/build/humanoid_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/humanoid_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/humanoid_perception build --build-base /root/ros2_ws/build/humanoid_perception/build install --record /root/ros2_ws/build/humanoid_perception/install.log --single-version-externally-managed install_data
+[1.451s] running egg_info
+[1.452s] writing ../../build/humanoid_perception/humanoid_perception.egg-info/PKG-INFO
+[1.452s] writing dependency_links to ../../build/humanoid_perception/humanoid_perception.egg-info/dependency_links.txt
+[1.452s] writing entry points to ../../build/humanoid_perception/humanoid_perception.egg-info/entry_points.txt
+[1.452s] writing requirements to ../../build/humanoid_perception/humanoid_perception.egg-info/requires.txt
+[1.452s] writing top-level names to ../../build/humanoid_perception/humanoid_perception.egg-info/top_level.txt
+[1.454s] reading manifest file '../../build/humanoid_perception/humanoid_perception.egg-info/SOURCES.txt'
+[1.454s] writing manifest file '../../build/humanoid_perception/humanoid_perception.egg-info/SOURCES.txt'
+[1.454s] running build
+[1.454s] running build_py
+[1.455s] running install
+[1.455s] running install_lib
+[1.456s] running install_data
+[1.456s] running install_egg_info
+[1.457s] removing '/root/ros2_ws/install/humanoid_perception/lib/python3.10/site-packages/humanoid_perception-0.0.0-py3.10.egg-info' (and everything under it)
+[1.458s] Copying ../../build/humanoid_perception/humanoid_perception.egg-info to /root/ros2_ws/install/humanoid_perception/lib/python3.10/site-packages/humanoid_perception-0.0.0-py3.10.egg-info
+[1.459s] running install_scripts
+[1.476s] Installing color_detector script to /root/ros2_ws/install/humanoid_perception/lib/humanoid_perception
+[1.477s] writing list of installed files to '/root/ros2_ws/build/humanoid_perception/install.log'
+[1.508s] Invoked command in '/root/ros2_ws/src/humanoid_perception' returned '0': PYTHONPATH=/root/ros2_ws/build/humanoid_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/humanoid_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/humanoid_perception build --build-base /root/ros2_ws/build/humanoid_perception/build install --record /root/ros2_ws/build/humanoid_perception/install.log --single-version-externally-managed install_data
